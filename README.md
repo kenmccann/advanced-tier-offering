@@ -111,22 +111,18 @@ This will give the customer a better understanding of the data which is presente
 
 At a high level Aquasec can work scan container images in an ad-hoc manner when combined with a variety of CI tools. It is not uncommon for customers or Enterprise to distribute their development teams across different application types and platform architectures, such as Linux x86 64 bit and Windows Server platforms.  
 
-This could mean that an organisation might have a variety of different CI tools, for example a TeamCity CI platform for Windows images and applications and Jenkins or GitLabs for Linux containers and Linux based Apps, or even Azure DevOps.
+This could mean that an organization might have a variety of different CI tools, for example a TeamCity CI platform for Windows images and applications and Jenkins or GitLabs for Linux containers and Linux based Apps, or even Azure DevOps.
 
 Speaking with your customer can give you an understand their environment and application landscape before embarking on this task as part of your ongoing workshop.
 
 Build pipelines can be configured to the scanner for a customer and scan images either using the proprietary Aqua CI tool scanner plug-in or via pipeline step by invoking docker.
 
-<![if !supportLists]>1. <![endif]>Show the customer how easy it is to scan an image, by creating a Jenkins pipeline to use Aquasec scanner Plug-in and parametrise the _Image Name_ as a variable so that any image can be scanned using a Jenkins job by providing build parameters.
-
-<![if !supportLists]>2. <![endif]>Demonstrate this pipeline working and explain how this can be used by others in the organisation indirectly without needing to access the Aqua console. I.e., a developer or member of a DevOps team can scan images, as part of the first step to making images compliant.
-
-<![if !supportLists]>3. <![endif]>Highlight how Aquasec will **_fail_** the pipeline scan if the image being scanned fails the existing Image Assurance policies – you can modify the controls accordingly to show that.
-
-<![if !supportLists]>4. <![endif]>Highlight how the image scan results are presented within Jenkins CI as part of the completed job ID and that it’s an HTML representation of the CI/CD scan step which is also present in the Images > CI/CD scans within the UI.
-
-<![if !supportLists]>5. <![endif]>Image Scan Webhook use to send scan results and integrate with Postee to provide image build notifications.
+1. Show the customer how easy it is to scan an image, by creating a Jenkins pipeline to use Aquasec scanner Plug-in and parametrise the _Image Name_ as a variable so that any image can be scanned using a Jenkins job by providing build parameters.
+2. Demonstrate this pipeline working and explain how this can be used by others in the organisation indirectly without needing to access the Aqua console. I.e., a developer or member of a DevOps team can scan images, as part of the first step to making images compliant.
+3. Highlight how Aquasec will **_fail_** the pipeline scan if the image being scanned fails the existing Image Assurance policies – you can modify the controls accordingly to show that.
+4. Highlight how the image scan results are presented within Jenkins CI as part of the completed job ID and that it’s an HTML representation of the CI/CD scan step which is also present in the Images > CI/CD scans within the UI.
+5. Image Scan Webhook use to send scan results and integrate with Postee to provide image build notifications.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNDgxNjc0OCw3NTkyNDM5MzUsLTE3Mz
+eyJoaXN0b3J5IjpbLTY2NDA2NDczMyw3NTkyNDM5MzUsLTE3Mz
 MzMDM1ODgsMTc0Nzc2NzQwOF19
 -->
