@@ -20,8 +20,6 @@ The Venn diagram below represents the relationships between each of the Aqua Com
 
 [insert diagram]
 
-<![endif]-->
-
 Naturally, vulnerability scanning cannot happen without integrating the customer’s container registries, and image scanning is dependent upon those registries existing within the Aquasec console.
 
 By default, Aquasec provides an existing container registry integration out of the box, which is Docker Hub. This can be used to scan public images and is a good starting point to show customers if they want to see this work out of the box.
