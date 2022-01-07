@@ -53,6 +53,8 @@ Since Aquasec provides two baseline policies for image assurance, one being the 
 The Default image assurance policy is enough to get the customer started however it does not include any additional controls which means that you will need to get a better understanding of what they will want to include in their policy.
 
 One of the ways to do this is to start with a custom policy with a handful of controls such as the one shown below.
+![Example Image Assurance Policy](https://github.com/kenmccann/advanced-tier-offering/blob/master/image/policy1.png?raw=true)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzMzMDM1ODgsMTc0Nzc2NzQwOF19
+eyJoaXN0b3J5IjpbLTE4NjM1OTQwMywtMTczMzMwMzU4OCwxNz
+Q3NzY3NDA4XX0=
 -->
