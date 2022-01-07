@@ -86,8 +86,10 @@ You should guide the customer through the scan results for the selected images a
 - Identifying
 - Image compliance reports (PDF download)
 
-Also highlight to the customer that they can find out about a particular image by clicking on the image name in the UI – as highlighted above with the sky blue text and  navy blue comments.
+Also highlight to the customer that they can find out about a particular image by clicking on the image name in the UI – as highlighted above with the sky blue text and navy blue comments.
+
+![Image Detail](https://github.com/kenmccann/advanced-tier-offering/blob/master/image/image-detail.png?raw=true)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU5MjQzOTM1LC0xNzMzMzAzNTg4LDE3ND
-c3Njc0MDhdfQ==
+eyJoaXN0b3J5IjpbLTExNjU5NjE0MjYsNzU5MjQzOTM1LC0xNz
+MzMzAzNTg4LDE3NDc3Njc0MDhdfQ==
 -->
