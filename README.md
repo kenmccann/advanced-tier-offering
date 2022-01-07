@@ -80,8 +80,8 @@ First start by selecting a couple of images from Docker hub, such as alpine:3.4 
 
 You should guide the customer through the scan results for the selected images and provide advice and direction of what this means and cover the tabs and data collected about the image within the UI.  
   
-
+![Images Sc](https://github.com/kenmccann/advanced-tier-offering/blob/master/image/vulnerabilities.png?raw=true)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMTg4Njc5OCwtMTczMzMwMzU4OCwxNz
-Q3NzY3NDA4XX0=
+eyJoaXN0b3J5IjpbLTE5ODA5ODYzNjYsLTE3MzMzMDM1ODgsMT
+c0Nzc2NzQwOF19
 -->
