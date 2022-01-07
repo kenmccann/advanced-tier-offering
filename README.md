@@ -14,19 +14,19 @@ You can break down the time spent working with the customer on these subjects ov
 
 ## Showing the relationship between Aqua capabilities
 
-At a high level, Aquasec can be configured to scan container images from several supported container registries.
+At a high level, Aqua can be configured to scan container images from several supported container registries.
 
 The Venn diagram below represents the relationships between each of the Aqua Components.
 
 [insert diagram]
 
-Naturally, vulnerability scanning cannot happen without integrating the customer’s container registries, and image scanning is dependent upon those registries existing within the Aquasec console.
+Naturally, vulnerability scanning cannot happen without integrating the customer’s container registries, and image scanning is dependent upon those registries existing within the Aqua console.
 
-By default, Aquasec provides an existing container registry integration out of the box, which is Docker Hub. This can be used to scan public images and is a good starting point to show customers if they want to see this work out of the box.
+By default, Aqua provides an existing container registry integration out of the box, which is Docker Hub. This can be used to scan public images and is a good starting point to show customers if they want to see this work out of the box.
 
 Additionally, no Image Assurance policies can be applied to images from a repo, without a container registry existing, after the results of an image being pulled and scanned from the image repo within the registry for a particular image.
 
-Aquasec provides a set of baseline Image Assurance Policies out of the box, that provide several controls that are applied to the images from the repositories in each container registry.
+Aqua provides a set of baseline Image Assurance Policies out of the box, that provide several controls that are applied to the images from the repositories in each container registry.
 
 ## Registry Integration
 
@@ -35,7 +35,7 @@ Aquasec provides a set of baseline Image Assurance Policies out of the box, that
 As the customer’s consultant you will need to establish whether the customer’s registries are hosted on premise or if they’re using cloud hosted registries, such as Azure ACR, AWS ECR or Google GCR, additionally the other registries that we support are listed here  
 [https://docs.aquasec.com/docs/image-registries-and-repositories#section-registry-details-tab](https://docs.aquasec.com/docs/image-registries-and-repositories#section-registry-details-tab)
 
-Where a customer is using on-premises container registries and the Aqua SaaS instance, you will need to configure the Aqua cloud connector before any images from repos can be scanned by Aquasec.
+Where a customer is using on-premises container registries and the Aqua SaaS instance, you will need to configure the Aqua cloud connector before any images from repos can be scanned by Aqua.
 
 Information on how the Aqua cloud connector works and how it is deployed is covered in the link below.  
 [https://docs.aquasec.com/docs/aqua-cloud-connector#introduction](https://docs.aquasec.com/docs/aqua-cloud-connector#introduction)
@@ -46,7 +46,7 @@ We recommend that you take time to do this in advance to check it works per the 
 
 **Session Aim:** Help the customer identify which Image assurance controls they wish to use for their business and use case and explore which controls fit their needs. It will be of benefit for the customer to show them what happens when one policy control is activated and applied and what the impact is on the scanned images and how a control makes the image non-compliant.  
   
-Since Aquasec provides two baseline policies for image assurance, one being the **Default** image policy and the other is for **DTA**.
+Since Aqua provides two baseline policies for image assurance, one being the **Default** image policy and the other is for **DTA**.
 
 The Default image assurance policy is enough to get the customer started however it does not include any additional controls which means that you will need to get a better understanding of what they will want to include in their policy.
 
@@ -69,7 +69,7 @@ _Do we want to cover this by explaining how policies within aqua can be created,
 
 ## Vulnerability Scanning
 
-Once your customer has integrated their container registry into the Aquasec Saas console, you will be able to guide the customer as to how they start scanning images and producing vulnerability reports.
+Once your customer has integrated their container registry into the Aqua Saas console, you will be able to guide the customer as to how they start scanning images and producing vulnerability reports.
 
   
 **Session aim**: The consultant should work with the customer to provide a high-level view and example of scanning images from a public docker repo, explaining the Vulnerability results and Risk based insights using the SaaS console.  Explaining to the customer how to interpret and understand the results and what they mean.
@@ -107,7 +107,7 @@ This will give the customer a better understanding of the data which is presente
 
 **Session Aim:** Introduce the customer to the Aqua scanner and integrate it into an example CI build pipeline step as part of a base image or application image creation, being part of the SDLC build. (potentially using the customer’s CI tool)
 
-At a high level Aquasec can work scan container images in an ad-hoc manner when combined with a variety of CI tools. It is not uncommon for customers or Enterprise to distribute their development teams across different application types and platform architectures, such as Linux x86 64 bit and Windows Server platforms.  
+At a high level Aqua can work scan container images in an ad-hoc manner when combined with a variety of CI tools. It is not uncommon for customers or Enterprise to distribute their development teams across different application types and platform architectures, such as Linux x86 64 bit and Windows Server platforms.  
 
 This could mean that an organization might have a variety of different CI tools, for example a TeamCity CI platform for Windows images and applications and Jenkins or GitLabs for Linux containers and Linux based Apps, or even Azure DevOps.
 
@@ -115,9 +115,9 @@ Speaking with your customer can give you an understand their environment and app
 
 Build pipelines can be configured to the scanner for a customer and scan images either using the proprietary Aqua CI tool scanner plug-in or via pipeline step by invoking docker.
 
-1. Show the customer how easy it is to scan an image, by creating a Jenkins pipeline to use Aquasec scanner Plug-in and parametrise the _Image Name_ as a variable so that any image can be scanned using a Jenkins job by providing build parameters.
+1. Show the customer how easy it is to scan an image, by creating a Jenkins pipeline to use Aqua scanner Plug-in and parametrise the _Image Name_ as a variable so that any image can be scanned using a Jenkins job by providing build parameters.
 2. Demonstrate this pipeline working and explain how this can be used by others in the organisation indirectly without needing to access the Aqua console. I.e., a developer or member of a DevOps team can scan images, as part of the first step to making images compliant.
-3. Highlight how Aquasec will **_fail_** the pipeline scan if the image being scanned fails the existing Image Assurance policies – you can modify the controls accordingly to show that.
+3. Highlight how Aqua will **_fail_** the pipeline scan if the image being scanned fails the existing Image Assurance policies – you can modify the controls accordingly to show that.
 4. Highlight how the image scan results are presented within Jenkins CI as part of the completed job ID and that it’s an HTML representation of the CI/CD scan step which is also present in the Images > CI/CD scans within the UI.
 5. Image Scan Webhook use to send scan results and integrate with Postee to provide image build notifications.
 <!--stackedit_data:
