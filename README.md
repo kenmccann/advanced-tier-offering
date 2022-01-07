@@ -7,6 +7,8 @@ Topics to cover:
 -   Assurance Policies – Images
 -   CI/CD integration
 -   SSO/SAML integration
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzOTgxNTI4M119
+eyJoaXN0b3J5IjpbMTkzMjk0NzQzM119
 -->
