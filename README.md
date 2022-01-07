@@ -11,6 +11,12 @@ Topics to cover:
 You can break down the time spent working with the customer on these subjects over six to eight sections lasting around two to three hours for each section. Some scenarios may be much shorter to do [ TBD ]
 
 [ insert table and time allocation when other content is defined]
+
+## Showing the relationship between Aqua capabilities
+
+At a high level, Aquasec can be configured to scan container images from several supported container registries.
+
+The Venn diagram below represents the relationships between each of the Aqua Components.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0Nzc2NzQwOF19
+eyJoaXN0b3J5IjpbMTMwMDY5NDIzOSwxNzQ3NzY3NDA4XX0=
 -->
