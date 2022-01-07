@@ -54,7 +54,105 @@ The Default image assurance policy is enough to get the customer started however
 
 One of the ways to do this is to start with a custom policy with a handful of controls such as the one shown below.
 ![Example Image Assurance Policy](https://github.com/kenmccann/advanced-tier-offering/blob/master/image/policy1.png?raw=true)
+<![endif]-->
+
+We have provided a copy of this policy in JSON format which is saved to SharePoint in the PS architects [Policy Examples folder](https://aquasecurity.sharepoint.com/:u:/s/CustomerSuccessArchitects/Ef8DeoDr4V9Dl0HKaEZnopwBLGoIJC_uLILvPTWurlaKdg?e=bbDNwu)  
+<![if !supportLineBreakNewLine]>  
+<![endif]>
+
+You can customise this policy with the customer by selecting and deselecting the existing controls and even explore small changes with them in their console.
+
+  
+There is also a set of documents in the [PS Architecture SharePoint](https://aquasecurity.sharepoint.com/sites/CustomerSuccessArchitects/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FCustomerSuccessArchitects%2FShared%20Documents%2FGuides%2FPolicy%20Configuration&viewid=2c0cd9c5%2Dfb91%2D4dd5%2D8362%2D3f8bb3e566f9) that covers best practices for Image Assurance
+
+Since all the Image Assurance policies can be created and applied in a layered fashion, they will control within the policies apply to all images which have been scanned within the Aqua SaaS console and effect the results against each image and additional images that are scanned thereafter.
+
+The impact of this means that if the image does not comply with the assurance polices, that image is deemed as non-compliant. More information about IA can be found on the Documentation portal.
+
+  
+
+GitOps  
+  
+_Do we want to cover this by explaining how policies within aqua can be created, then stored within Github, and for any policy to updated & pushed programmatically into the console using the API via a CI job so that change control can be managed and preventing human error – where policies are applied between Dev/Test –> Non Prod -> Production environments?_
+
+## Vulnerability Scanning
+
+Once your customer has integrated their container registry into the Aquasec Saas console, you will be able to guide the customer as to how they start scanning images and producing vulnerability reports.
+
+  
+**Session aim**: The consultant should work with the customer to provide a high-level view and example of scanning images from a public docker repo, explaining the Vulnerability results and Risk based insights using the SaaS console.  Explaining to the customer how to interpret and understand the results and what they mean.
+
+First start by selecting a couple of images from Docker hub, such as alpine:3.4 and ubuntu:14.04 to show the customer the kind of information which is obtained about images when they are scanned etc.
+
+You should guide the customer through the scan results for the selected images and provide advice and direction of what this means and cover the tabs and data collected about the image within the UI.  
+  
+Vis:
+
+<![if !vml]>![Graphical user interface, application
+
+Description automatically generated](file:////Users/kenmac/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image001.png)<![endif]>
+
+<![if !supportLists]>· <![endif]>Scan Queue
+
+<![if !supportLists]>· <![endif]>Host Images
+
+<![if !supportLists]>· <![endif]>Identifying
+
+<![if !supportLists]>· <![endif]>Image compliance reports [ PDF download]
+
+Also highlight to the customer that they can find out about a particular image by clicking on the image name in the UI – as highlighted above with the sky blue text and  navy blue comments.
+
+<![if !vml]>![Graphical user interface, application, Teams
+
+Description automatically generated](file:////Users/kenmac/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image002.png)<![endif]>
+
+You will probably want to show the customer the additional data tabs, such as :
+
+<![if !supportLists]>· <![endif]>Vulnerabilities
+
+<![if !supportLists]>· <![endif]>Layers
+
+<![if !supportLists]>· <![endif]>Resources
+
+<![if !supportLists]>· <![endif]>Sensitive data
+
+<![if !supportLists]>· <![endif]>Malware,
+
+<![if !supportLists]>· <![endif]>information,
+
+<![if !supportLists]>· <![endif]>Scan history
+
+<![if !supportLists]>· <![endif]>Audit tabs
+
+The documentation portal can provide additional information about the information collected and reported by Aqua via Cybercenter.
+
+This will give the customer a better understanding of the data which is presented to them via the UI.
+
+## CI/CD Integration
+
+**Session Aim:** Introduce the customer to the Aqua scanner and integrate it into an example CI build pipeline step as part of a base image or application image creation, being part of the SDLC build. [ potentially using the customer’s CI tool ]
+
+  
+At a high level Aquasec can work scan container images in an ad-hoc manner when combined with a variety of CI tools. It is not uncommon for customers or Enterprise to distribute their development teams across different application types and platform architectures, such as Linux x86 64 bit and Windows Server platforms.  
+<![if !supportLineBreakNewLine]>  
+<![endif]>
+
+This could mean that an organisation might have a variety of different CI tools, for example a TeamCity CI platform for Windows images and applications and Jenkins or GitLabs for Linux containers and Linux based Apps, or even Azure DevOps.
+
+Speaking with your customer can give you an understand their environment and application landscape before embarking on this task as part of your ongoing workshop.
+
+Build pipelines can be configured to the scanner for a customer and scan images either using the proprietary Aqua CI tool scanner plug-in or via pipeline step by invoking docker.
+
+<![if !supportLists]>1. <![endif]>Show the customer how easy it is to scan an image, by creating a Jenkins pipeline to use Aquasec scanner Plug-in and parametrise the _Image Name_ as a variable so that any image can be scanned using a Jenkins job by providing build parameters.
+
+<![if !supportLists]>2. <![endif]>Demonstrate this pipeline working and explain how this can be used by others in the organisation indirectly without needing to access the Aqua console. I.e., a developer or member of a DevOps team can scan images, as part of the first step to making images compliant.
+
+<![if !supportLists]>3. <![endif]>Highlight how Aquasec will **_fail_** the pipeline scan if the image being scanned fails the existing Image Assurance policies – you can modify the controls accordingly to show that.
+
+<![if !supportLists]>4. <![endif]>Highlight how the image scan results are presented within Jenkins CI as part of the completed job ID and that it’s an HTML representation of the CI/CD scan step which is also present in the Images > CI/CD scans within the UI.
+
+<![if !supportLists]>5. <![endif]>Image Scan Webhook use to send scan results and integrate with Postee to provide image build notifications.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjM1OTQwMywtMTczMzMwMzU4OCwxNz
-Q3NzY3NDA4XX0=
+eyJoaXN0b3J5IjpbLTE3NjA2NDE2NjIsLTE3MzMzMDM1ODgsMT
+c0Nzc2NzQwOF19
 -->
