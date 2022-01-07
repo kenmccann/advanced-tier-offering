@@ -1,3 +1,5 @@
+![Aqua Security Software](https://github.com/kenmccann/advanced-tier-offering/blob/master/image/aqua-logo-black.png?raw=true)
+
 # Advanced Tier Work Package
 The consultant will lead the end customer to cover the subjects mentioned below over a one to two day period using this guide. These sessions will be a combination of instructor led training and examples based on real world use cases and provide the customer with the opportunity to carry out the scenarios for themselves.
 
@@ -121,6 +123,6 @@ Build pipelines can be configured to the scanner for a customer and scan images 
 4. Highlight how the image scan results are presented within Jenkins CI as part of the completed job ID and that it’s an HTML representation of the CI/CD scan step which is also present in the Images > CI/CD scans within the UI.
 5. Image Scan Webhook use to send scan results and integrate with Postee to provide image build notifications.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NDA2NDczMyw3NTkyNDM5MzUsLTE3Mz
-MzMDM1ODgsMTc0Nzc2NzQwOF19
+eyJoaXN0b3J5IjpbLTEyODcxNjY0NTUsLTY2NDA2NDczMyw3NT
+kyNDM5MzUsLTE3MzMzMDM1ODgsMTc0Nzc2NzQwOF19
 -->
