@@ -64,7 +64,24 @@ There is also a set of documents in the [PS Architecture SharePoint](https://aqu
 Since all the Image Assurance policies can be created and applied in a layered fashion, they will control within the policies apply to all images which have been scanned within the Aqua SaaS console and effect the results against each image and additional images that are scanned thereafter.
 
 The impact of this means that if the image does not comply with the assurance polices, that image is deemed as non-compliant. More information about IA can be found on the Documentation portal.
+
+### GitOps  
+  
+_Do we want to cover this by explaining how policies within aqua can be created, then stored within Github, and for any policy to updated & pushed programmatically into the console using the API via a CI job so that change control can be managed and preventing human error – where policies are applied between Dev/Test –> Non Prod -> Production environments?_
+
+## Vulnerability Scanning
+
+Once your customer has integrated their container registry into the Aquasec Saas console, you will be able to guide the customer as to how they start scanning images and producing vulnerability reports.
+
+  
+**Session aim**: The consultant should work with the customer to provide a high-level view and example of scanning images from a public docker repo, explaining the Vulnerability results and Risk based insights using the SaaS console.  Explaining to the customer how to interpret and understand the results and what they mean.
+
+First start by selecting a couple of images from Docker hub, such as alpine:3.4 and ubuntu:14.04 to show the customer the kind of information which is obtained about images when they are scanned etc.
+
+You should guide the customer through the scan results for the selected images and provide advice and direction of what this means and cover the tabs and data collected about the image within the UI.  
+  
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0ODQ2NzQ5LC0xNzMzMzAzNTg4LDE3ND
-c3Njc0MDhdfQ==
+eyJoaXN0b3J5IjpbMTkyMTg4Njc5OCwtMTczMzMwMzU4OCwxNz
+Q3NzY3NDA4XX0=
 -->
