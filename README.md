@@ -43,6 +43,16 @@ Information on how the Aqua cloud connector works and how it is deployed is cove
 [https://docs.aquasec.com/docs/aqua-cloud-connector#introduction](https://docs.aquasec.com/docs/aqua-cloud-connector#introduction)
 
 We recommend that you take time to do this in advance to check it works per the customers use case(s) and that you can scan images from the customers on premises registry _or a replicated one of the same type in your own environment_. Allocate at least four hours to configure an on-premises container registry which is the. Same as your customer in conjunction with the Aqua Cloud Connector deployment and config.
+
+## Image Assurance Policies
+
+**Session Aim:** Help the customer identify which Image assurance controls they wish to use for their business and use case and explore which controls fit their needs. It will be of benefit for the customer to show them what happens when one policy control is activated and applied and what the impact is on the scanned images and how a control makes the image non-compliant.  
+  
+Since Aquasec provides two baseline policies for image assurance, one being the **Default** image policy and the other is for **DTA**.
+
+The Default image assurance policy is enough to get the customer started however it does not include any additional controls which means that you will need to get a better understanding of what they will want to include in their policy.
+
+One of the ways to do this is to start with a custom policy with a handful of controls such as the one shown below.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIwNTEyNzIwLDE3NDc3Njc0MDhdfQ==
+eyJoaXN0b3J5IjpbLTE3MzMzMDM1ODgsMTc0Nzc2NzQwOF19
 -->
