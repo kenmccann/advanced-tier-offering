@@ -8,7 +8,9 @@ Topics to cover:
 -   CI/CD integration
 -   SSO/SAML integration
 
+You can break down the time spent working with the customer on these subjects over six to eight sections lasting around two to three hours for each section. Some scenarios may be much shorter to do [ TBD ]
 
+[ insert table and time allocation when other content is defined]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMjk0NzQzM119
+eyJoaXN0b3J5IjpbMTc0Nzc2NzQwOF19
 -->
