@@ -80,8 +80,14 @@ First start by selecting a couple of images from Docker hub, such as alpine:3.4 
 
 You should guide the customer through the scan results for the selected images and provide advice and direction of what this means and cover the tabs and data collected about the image within the UI.  
   
-![Images Sc](https://github.com/kenmccann/advanced-tier-offering/blob/master/image/vulnerabilities.png?raw=true)
+![Images Screen](https://github.com/kenmccann/advanced-tier-offering/blob/master/image/vulnerabilities.png?raw=true)
+- Scan Queue
+-Host Images
+Identifying
+Image compliance reports (PDF download)
+
+Also highlight to the customer that they can find out about a particular image by clicking on the image name in the UI – as highlighted above with the sky blue text and  navy blue comments.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODA5ODYzNjYsLTE3MzMzMDM1ODgsMT
+eyJoaXN0b3J5IjpbLTE5NTA1OTc3ODUsLTE3MzMzMDM1ODgsMT
 c0Nzc2NzQwOF19
 -->
