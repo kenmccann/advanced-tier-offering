@@ -92,27 +92,24 @@ Also highlight to the customer that they can find out about a particular image b
 
 You will probably want to show the customer the additional data tabs, such as :
 
-Vulnerabilities
-Layers
-Resources
-Sensitive data
-Malware,
-Information
-Scan history
-Audit tabs
+- Vulnerabilities
+- Layers
+- Resources
+- Sensitive data
+- Malware
+- Information
+- Scan history
+- Audit tabs
 
-The documentation portal can provide additional information about the information collected and reported by Aqua via Cybercenter.
+The documentation portal can provide additional information about the information collected and reported by Aqua via CyberCenter.
 
 This will give the customer a better understanding of the data which is presented to them via the UI.
 
 ## CI/CD Integration
 
-**Session Aim:** Introduce the customer to the Aqua scanner and integrate it into an example CI build pipeline step as part of a base image or application image creation, being part of the SDLC build. [ potentially using the customer’s CI tool ]
+**Session Aim:** Introduce the customer to the Aqua scanner and integrate it into an example CI build pipeline step as part of a base image or application image creation, being part of the SDLC build. (potentially using the customer’s CI tool)
 
-  
 At a high level Aquasec can work scan container images in an ad-hoc manner when combined with a variety of CI tools. It is not uncommon for customers or Enterprise to distribute their development teams across different application types and platform architectures, such as Linux x86 64 bit and Windows Server platforms.  
-<![if !supportLineBreakNewLine]>  
-<![endif]>
 
 This could mean that an organisation might have a variety of different CI tools, for example a TeamCity CI platform for Windows images and applications and Jenkins or GitLabs for Linux containers and Linux based Apps, or even Azure DevOps.
 
@@ -130,6 +127,6 @@ Build pipelines can be configured to the scanner for a customer and scan images 
 
 <![if !supportLists]>5. <![endif]>Image Scan Webhook use to send scan results and integrate with Postee to provide image build notifications.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjAxOTQ2MjEsNzU5MjQzOTM1LC0xNz
-MzMzAzNTg4LDE3NDc3Njc0MDhdfQ==
+eyJoaXN0b3J5IjpbMjExNDgxNjc0OCw3NTkyNDM5MzUsLTE3Mz
+MzMDM1ODgsMTc0Nzc2NzQwOF19
 -->
