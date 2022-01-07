@@ -82,12 +82,12 @@ You should guide the customer through the scan results for the selected images a
   
 ![Images Screen](https://github.com/kenmccann/advanced-tier-offering/blob/master/image/vulnerabilities.png?raw=true)
 - Scan Queue
--Host Images
-Identifying
-Image compliance reports (PDF download)
+- Host Images
+- Identifying
+- Image compliance reports (PDF download)
 
 Also highlight to the customer that they can find out about a particular image by clicking on the image name in the UI – as highlighted above with the sky blue text and  navy blue comments.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTA1OTc3ODUsLTE3MzMzMDM1ODgsMT
-c0Nzc2NzQwOF19
+eyJoaXN0b3J5IjpbNzU5MjQzOTM1LC0xNzMzMzAzNTg4LDE3ND
+c3Njc0MDhdfQ==
 -->
