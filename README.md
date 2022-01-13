@@ -153,7 +153,7 @@ It's useful to go through this with the  customer and refer  to the vulnerabilit
 ### How the "Example" Image Assurance Policy effects the compliance of scan results
 
 ![Applied custom image assurance policy](https://github.com/kenmccann/advanced-tier-offering/blob/master/image/alpine-ex-ia-pol-scan.png?raw=true)
-Here we can see our  custom Image Assurance  policy applied to our alpine:3.4 image and it's quite different to the results from the default policy. You can see that the image is still compliant  but has failed some  of the  im
+Here we can see our  custom Image Assurance  policy applied to our alpine:3.4 image and it's quite different to the results from the default policy. You can see that the image is still compliant  but has failed some  of the  image assurance  controls against Vulnerability  Severity  and  Super User control.
 
 ### New header
 
@@ -191,7 +191,7 @@ Build pipelines can be configured to use the scanner for a customer and scan ima
 5. Image Scan Webhook use to send scan results and integrate with Postee to provide image build notifications.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mzk4MjM3NzgsMTgxNTM2NTI3NiwtMT
+eyJoaXN0b3J5IjpbLTE4OTAwNDI1NTQsMTgxNTM2NTI3NiwtMT
 E0MTQxMDY0NCwtODE4Mzk1MzU5LDE4OTg5NjM5OTIsODk5Mzk2
 MDg0LC0yMDY2NjQ2NTY4LC01NjAyMDU4NjMsMTcxODQzNTIwNC
 w5MzUzNzgwOTYsLTE2OTc4MDU0NDcsMTA5OTYzNzA4NywtMTAw
