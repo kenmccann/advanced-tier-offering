@@ -122,7 +122,8 @@ We can see that there are 44  vulnerabilities found within the image that are ca
  - 0 Low				 
 
 Additional details about the image can be obtained from the scan results and provide valuable information about the image data obtained during scanning. 
- and direction of what these means and cover the tabs and data collected about the image within the UI, via the tabs listed  below and are hyperlinked to the Aqua documentation page relevant to it.
+
+This can be viewed within the UI, via the tabs listed below and are hyperlinked to the Aqua documentation page relevant that sub category.
 
  - [Vulnerabilties](https://docs.aquasec.com/docs/vulnerabilities-tab)
  - [Layers](https://docs.aquasec.com/docs/layers-tab)
@@ -173,7 +174,7 @@ Build pipelines can be configured to use the scanner for a customer and scan ima
 5. Image Scan Webhook use to send scan results and integrate with Postee to provide image build notifications.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjI5MzMwMDMsMTY2MDkwNDY0MiwtNT
+eyJoaXN0b3J5IjpbLTEyMTY2MzIzNzMsMTY2MDkwNDY0MiwtNT
 MwNTU2MjMyLC0xNTYyODQ0MTEsLTEyODcxNjY0NTUsLTEyODcx
 NjY0NTUsLTY2NDA2NDczMyw3NTkyNDM5MzUsLTE3MzMzMDM1OD
 gsMTc0Nzc2NzQwOF19
