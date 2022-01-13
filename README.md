@@ -122,7 +122,7 @@ We can see that there are 44  vulnerabilities found within the image that are ca
 
  Additional details can be obtained from the scan results for the selected images and provide advice and direction of what this means and cover the tabs and data collected about the image within the UI.  
  
-You can gain more info from the tabs headed:
+You can gain more information about the image from the tabs headed:
 - Scan Queue
 - Host Images
 - Identifying
@@ -170,8 +170,8 @@ Build pipelines can be configured to use the scanner for a customer and scan ima
 5. Image Scan Webhook use to send scan results and integrate with Postee to provide image build notifications.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MDkwNDY0MiwtNTMwNTU2MjMyLC0xNT
-YyODQ0MTEsLTEyODcxNjY0NTUsLTEyODcxNjY0NTUsLTY2NDA2
-NDczMyw3NTkyNDM5MzUsLTE3MzMzMDM1ODgsMTc0Nzc2NzQwOF
-19
+eyJoaXN0b3J5IjpbNTgxNjE2MTg5LDE2NjA5MDQ2NDIsLTUzMD
+U1NjIzMiwtMTU2Mjg0NDExLC0xMjg3MTY2NDU1LC0xMjg3MTY2
+NDU1LC02NjQwNjQ3MzMsNzU5MjQzOTM1LC0xNzMzMzAzNTg4LD
+E3NDc3Njc0MDhdfQ==
 -->
