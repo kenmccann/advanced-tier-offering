@@ -111,6 +111,7 @@ The results containing all the hashes and details of the container, including it
 
 This is the high level view of what you see in the screen shot below. Our Alpine:3.4 image that's been scanned within the console.
 
+*Also highlight to the customer that they can find out about a particular image by clicking on the image name in the UI – as highlighted below with the sky blue text and navy blue comments.*
 ![Images Screen](https://github.com/kenmccann/advanced-tier-offering/blob/master/image/vulnerabilities.png?raw=true)
 We can see that there are 44  vulnerabilities found within the image that are categorised with the following severity & colour :
 
@@ -120,15 +121,7 @@ We can see that there are 44  vulnerabilities found within the image that are ca
  - 6 Low				 
  - 0 Low				 
 
- Additional details can be obtained from the scan results for the selected images and provide advice and direction of what this means and cover the tabs and data collected about the image within the UI.  
- 
-You can gain more information about the image from the tabs headed:
-- Scan Queue
-- Host Images
-- Identifying
-- Image compliance reports (PDF download)
-
-Also highlight to the customer that they can find out about a particular image by clicking on the image name in the UI – as highlighted above with the sky blue text and navy blue comments.
+Additional details can be obtained from the scan results for the selected images and provide advice and direction of what this means and cover the tabs and data collected about the image within the UI, via
 
 ![Image Detail](https://github.com/kenmccann/advanced-tier-offering/blob/master/image/image-detail.png?raw=true)
 ### How the "Example" Image Assurance Policy effects the compliance of scan results
@@ -170,7 +163,7 @@ Build pipelines can be configured to use the scanner for a customer and scan ima
 5. Image Scan Webhook use to send scan results and integrate with Postee to provide image build notifications.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgxNjE2MTg5LDE2NjA5MDQ2NDIsLTUzMD
+eyJoaXN0b3J5IjpbMzAwODQxNTQ3LDE2NjA5MDQ2NDIsLTUzMD
 U1NjIzMiwtMTU2Mjg0NDExLC0xMjg3MTY2NDU1LC0xMjg3MTY2
 NDU1LC02NjQwNjQ3MzMsNzU5MjQzOTM1LC0xNzMzMzAzNTg4LD
 E3NDc3Njc0MDhdfQ==
