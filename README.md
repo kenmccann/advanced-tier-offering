@@ -137,7 +137,7 @@ This can be viewed within the UI, via the tabs listed below and are hyperlinked 
 ![Image Detail](https://github.com/kenmccann/advanced-tier-offering/blob/master/image/image-detail.png?raw=true)
 ### Understanding The Scope of Vulnerabilities 
 
-Since the scanned image is marked as compliant aginst the **Default** image assurance policy, we can 
+Since the scanned image is marked as compliant aginst the **Default** image assurance policy, we can take a closer look into
 
 ### How the "Example" Image Assurance Policy effects the compliance of scan results
 
@@ -178,8 +178,9 @@ Build pipelines can be configured to use the scanner for a customer and scan ima
 5. Image Scan Webhook use to send scan results and integrate with Postee to provide image build notifications.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODE0MTY1OTgsNDYwNTU2NTY4LDE2Nj
-A5MDQ2NDIsLTUzMDU1NjIzMiwtMTU2Mjg0NDExLC0xMjg3MTY2
-NDU1LC0xMjg3MTY2NDU1LC02NjQwNjQ3MzMsNzU5MjQzOTM1LC
-0xNzMzMzAzNTg4LDE3NDc3Njc0MDhdfQ==
+eyJoaXN0b3J5IjpbLTEwMDcyNDk3ODEsLTE4ODE0MTY1OTgsND
+YwNTU2NTY4LDE2NjA5MDQ2NDIsLTUzMDU1NjIzMiwtMTU2Mjg0
+NDExLC0xMjg3MTY2NDU1LC0xMjg3MTY2NDU1LC02NjQwNjQ3Mz
+MsNzU5MjQzOTM1LC0xNzMzMzAzNTg4LDE3NDc3Njc0MDhdfQ==
+
 -->
