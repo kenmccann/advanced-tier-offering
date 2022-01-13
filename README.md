@@ -120,7 +120,7 @@ We can see that there are 44  vulnerabilities found within the image that are ca
  - 6 Low				 
  - 0 Low				 
 
-This provides a high level view of the vulnerabilities which exist in an image and additional details can be obtained from within the UI.
+Additional details can be obtained from within the UI such as 
 
 You should guide the customer through the scan results for the selected images and provide advice and direction of what this means and cover the tabs and data collected about the image within the UI.  
 
@@ -171,7 +171,7 @@ Build pipelines can be configured to use the scanner for a customer and scan ima
 5. Image Scan Webhook use to send scan results and integrate with Postee to provide image build notifications.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NjEyMTA3MywtNTMwNTU2MjMyLC0xNT
+eyJoaXN0b3J5IjpbLTUyOTY4NjY2MiwtNTMwNTU2MjMyLC0xNT
 YyODQ0MTEsLTEyODcxNjY0NTUsLTEyODcxNjY0NTUsLTY2NDA2
 NDczMyw3NTkyNDM5MzUsLTE3MzMzMDM1ODgsMTc0Nzc2NzQwOF
 19
