@@ -135,6 +135,10 @@ This can be viewed within the UI, via the tabs listed below and are hyperlinked 
  - [Audit](https://docs.aquasec.com/docs/audit-tab)
 
 ![Image Detail](https://github.com/kenmccann/advanced-tier-offering/blob/master/image/image-detail.png?raw=true)
+### Understanding The Scope of Vulnerabilities 
+
+Since the scanned image is marked as compliant aginst the 
+
 ### How the "Example" Image Assurance Policy effects the compliance of scan results
 
 ![Applied custom image assurance policy](https://github.com/kenmccann/advanced-tier-offering/blob/master/image/alpine-ex-ia-pol-scan.png?raw=true)
@@ -174,8 +178,8 @@ Build pipelines can be configured to use the scanner for a customer and scan ima
 5. Image Scan Webhook use to send scan results and integrate with Postee to provide image build notifications.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYwNTU2NTY4LDE2NjA5MDQ2NDIsLTUzMD
-U1NjIzMiwtMTU2Mjg0NDExLC0xMjg3MTY2NDU1LC0xMjg3MTY2
-NDU1LC02NjQwNjQ3MzMsNzU5MjQzOTM1LC0xNzMzMzAzNTg4LD
-E3NDc3Njc0MDhdfQ==
+eyJoaXN0b3J5IjpbLTE1NzIwMjE4MjcsNDYwNTU2NTY4LDE2Nj
+A5MDQ2NDIsLTUzMDU1NjIzMiwtMTU2Mjg0NDExLC0xMjg3MTY2
+NDU1LC0xMjg3MTY2NDU1LC02NjQwNjQ3MzMsNzU5MjQzOTM1LC
+0xNzMzMzAzNTg4LDE3NDc3Njc0MDhdfQ==
 -->
