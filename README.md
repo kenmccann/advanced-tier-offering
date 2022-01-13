@@ -141,7 +141,7 @@ Since the scanned image is marked as compliant aginst the **Default** image assu
 ![Image Detail](https://github.com/kenmccann/advanced-tier-offering/blob/master/image/vulns-list-pkgs.png?raw=true)
 Aquasec will show all the vulnerabilities  within that image by showing the associated packages and files that they belong to. 
 
-Clicking on one of the package vulnerabilities will provide related to that vulnerability
+Clicking on one of the package vulnerabilities, the UI will provide  formation related to that vulnerability and what information that the vendor holds about it.
 
 
 ### How the "Example" Image Assurance Policy effects the compliance of scan results
@@ -183,10 +183,10 @@ Build pipelines can be configured to use the scanner for a customer and scan ima
 5. Image Scan Webhook use to send scan results and integrate with Postee to provide image build notifications.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MDIwNTg2MywxNzE4NDM1MjA0LDkzNT
-M3ODA5NiwtMTY5NzgwNTQ0NywxMDk5NjM3MDg3LC0xMDA3MjQ5
-NzgxLC0xODgxNDE2NTk4LDQ2MDU1NjU2OCwxNjYwOTA0NjQyLC
-01MzA1NTYyMzIsLTE1NjI4NDQxMSwtMTI4NzE2NjQ1NSwtMTI4
-NzE2NjQ1NSwtNjY0MDY0NzMzLDc1OTI0MzkzNSwtMTczMzMwMz
-U4OCwxNzQ3NzY3NDA4XX0=
+eyJoaXN0b3J5IjpbLTIwNjY2NDY1NjgsLTU2MDIwNTg2MywxNz
+E4NDM1MjA0LDkzNTM3ODA5NiwtMTY5NzgwNTQ0NywxMDk5NjM3
+MDg3LC0xMDA3MjQ5NzgxLC0xODgxNDE2NTk4LDQ2MDU1NjU2OC
+wxNjYwOTA0NjQyLC01MzA1NTYyMzIsLTE1NjI4NDQxMSwtMTI4
+NzE2NjQ1NSwtMTI4NzE2NjQ1NSwtNjY0MDY0NzMzLDc1OTI0Mz
+kzNSwtMTczMzMwMzU4OCwxNzQ3NzY3NDA4XX0=
 -->
