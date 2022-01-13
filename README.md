@@ -121,16 +121,16 @@ We can see that there are 44  vulnerabilities found within the image that are ca
  - 6 Low				 
  - 0 Low				 
 
-Additional details can be obtained from the scan results for the selected images and provide advice and direction of what this means and cover the tabs and data collected about the image within the UI, via the tabs listed  below and are hyperlinked to the Aqua documentation page relevant to it.
+Additional details about the image can be obtained from the scan results for the selected images and provide advice and direction of what this means and cover the tabs and data collected about the image within the UI, via the tabs listed  below and are hyperlinked to the Aqua documentation page relevant to it.
 
  - [Vulnerabilties](https://docs.aquasec.com/docs/vulnerabilities-tab)
  - [Layers](https://docs.aquasec.com/docs/layers-tab)
  - [Resources](https://docs.aquasec.com/docs/resources-tab)
- - Sensitive Data
- - Malware
- - Information
- - Scan history
- - Audit
+ - [Sensitive Data](https://docs.aquasec.com/docs/sensitive-data-tab)
+ - [Malware](https://docs.aquasec.com/docs/malware-tab)
+ - [Information](https://docs.aquasec.com/docs/information-tab)
+ - [Scan history](https://docs.aquasec.com/docs/scan-history-tab)
+ - [Audit](https://docs.aquasec.com/docs/audit-tab)
 
 ![Image Detail](https://github.com/kenmccann/advanced-tier-offering/blob/master/image/image-detail.png?raw=true)
 ### How the "Example" Image Assurance Policy effects the compliance of scan results
@@ -172,8 +172,8 @@ Build pipelines can be configured to use the scanner for a customer and scan ima
 5. Image Scan Webhook use to send scan results and integrate with Postee to provide image build notifications.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NDMzMzk4NCwxNjYwOTA0NjQyLC01Mz
-A1NTYyMzIsLTE1NjI4NDQxMSwtMTI4NzE2NjQ1NSwtMTI4NzE2
-NjQ1NSwtNjY0MDY0NzMzLDc1OTI0MzkzNSwtMTczMzMwMzU4OC
-wxNzQ3NzY3NDA4XX0=
+eyJoaXN0b3J5IjpbMTc4ODU5MzYwLDE2NjA5MDQ2NDIsLTUzMD
+U1NjIzMiwtMTU2Mjg0NDExLC0xMjg3MTY2NDU1LC0xMjg3MTY2
+NDU1LC02NjQwNjQ3MzMsNzU5MjQzOTM1LC0xNzMzMzAzNTg4LD
+E3NDc3Njc0MDhdfQ==
 -->
