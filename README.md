@@ -111,10 +111,13 @@ Basically, the Aquasec scanner decomposes the container image and scans each lay
 We can see that there are 42  vulnerabilities found within the image that are categorised with the following severity & colour :
 
  - 2 Critical			Dark Red
- - 15 High			Red
- - 21 Medium	Orange
+ - 15 High			 Red
+ - 21 Medium	 Orange
  - 6 Low				Amber
  - 0 Low				Grey
+|A| B |
+|--|--|
+|  |  |
 
 This provides a high level view and additional details can be obtained from within the UI 
 You should guide the customer through the scan results for the selected images and provide advice and direction of what this means and cover the tabs and data collected about the image within the UI.  
@@ -162,7 +165,7 @@ Build pipelines can be configured to use the scanner for a customer and scan ima
 5. Image Scan Webhook use to send scan results and integrate with Postee to provide image build notifications.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjI4NDQxMSwtMTI4NzE2NjQ1NSwtMT
-I4NzE2NjQ1NSwtNjY0MDY0NzMzLDc1OTI0MzkzNSwtMTczMzMw
-MzU4OCwxNzQ3NzY3NDA4XX0=
+eyJoaXN0b3J5IjpbLTE2NDU5NjAyMTYsLTE1NjI4NDQxMSwtMT
+I4NzE2NjQ1NSwtMTI4NzE2NjQ1NSwtNjY0MDY0NzMzLDc1OTI0
+MzkzNSwtMTczMzMwMzU4OCwxNzQ3NzY3NDA4XX0=
 -->
