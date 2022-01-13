@@ -105,7 +105,9 @@ Some customers may ask:
 
 > How does Aquasec get the information about vulnerabilities and CVE's from the container?
 
-Basically, the Aquasec scanner decomposes the container image and scans each layer and creates a sha256 hash of each file/binary within that layer. The results are sent with the  information about the container including it's digest and content hash to Cybercenter [ our cloud vulnerability DB ]  for it to process and identify which files and pakages it recognises, then Cybercenter sends those results back for the console to process the results within the UI. This is what you see in the screen shot below.
+*Basically, the Aquasec scanner decomposes the container image and scans each layer and creates a sha256 hash of each file/binary within that layer. The results are sent with the  information about the container including it's digest and content hash to Cybercenter [ our cloud vulnerability DB ]  for it to process and identify which files and pakages it recognises, then Cybercenter sends those results back for the console to process the results within the UI.* 
+
+This is what you see in the screen shot below.
 
 ![Images Screen](https://github.com/kenmccann/advanced-tier-offering/blob/master/image/vulnerabilities.png?raw=true)
 We can see that there are 44  vulnerabilities found within the image that are categorised with the following severity & colour :
@@ -167,8 +169,8 @@ Build pipelines can be configured to use the scanner for a customer and scan ima
 5. Image Scan Webhook use to send scan results and integrate with Postee to provide image build notifications.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzQ2MjAwMjEsLTUzMDU1NjIzMiwtMT
-U2Mjg0NDExLC0xMjg3MTY2NDU1LC0xMjg3MTY2NDU1LC02NjQw
-NjQ3MzMsNzU5MjQzOTM1LC0xNzMzMzAzNTg4LDE3NDc3Njc0MD
-hdfQ==
+eyJoaXN0b3J5IjpbLTg3MTczMzgzMSwtNTMwNTU2MjMyLC0xNT
+YyODQ0MTEsLTEyODcxNjY0NTUsLTEyODcxNjY0NTUsLTY2NDA2
+NDczMyw3NTkyNDM5MzUsLTE3MzMzMDM1ODgsMTc0Nzc2NzQwOF
+19
 -->
