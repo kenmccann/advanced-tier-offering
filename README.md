@@ -138,11 +138,11 @@ This can be viewed within the UI, via the tabs named below and are hyperlinked t
 ### Understanding The Scope of Vulnerabilities 
 
 Since the scanned image is marked as compliant aginst the **Default** image assurance policy, we can take a closer look into what vulnerabilities the container image has  within it and how that relates to files and packages. This can be done using the Vulnerabilities tab.
-![Image Detail](https://github.com/kenmccann/advanced-tier-offering/blob/master/image/vulns-list-pkgs.png?raw=true)
+![container image cve list](https://github.com/kenmccann/advanced-tier-offering/blob/master/image/vulns-list-pkgs.png?raw=true)
 Aquasec will show all the vulnerabilities  within that image by showing the associated packages and files that they belong to.  We  see the  first  few  of columns which shows  the CVE's by name and Severity, which are  Critical  and High  Cve's  for  the  first few rows. 
 
 Clicking on one of the package vulnerabilities in the UI will provide  information related to that vulnerability and what information that the vendor holds about it. 
-
+![container image cve list](https://github.com/kenmccann/advanced-tier-offering/blob/master/image/vulns-list-pkgs.png?raw=true)
 
 You can see more  about this in this [link](https://docs.aquasec.com/docs/vulnerabilities-tab#section-description)
 
@@ -188,11 +188,11 @@ Build pipelines can be configured to use the scanner for a customer and scan ima
 5. Image Scan Webhook use to send scan results and integrate with Postee to provide image build notifications.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMzMwNzg4MSwtODE4Mzk1MzU5LDE4OT
-g5NjM5OTIsODk5Mzk2MDg0LC0yMDY2NjQ2NTY4LC01NjAyMDU4
-NjMsMTcxODQzNTIwNCw5MzUzNzgwOTYsLTE2OTc4MDU0NDcsMT
-A5OTYzNzA4NywtMTAwNzI0OTc4MSwtMTg4MTQxNjU5OCw0NjA1
-NTY1NjgsMTY2MDkwNDY0MiwtNTMwNTU2MjMyLC0xNTYyODQ0MT
-EsLTEyODcxNjY0NTUsLTEyODcxNjY0NTUsLTY2NDA2NDczMyw3
-NTkyNDM5MzVdfQ==
+eyJoaXN0b3J5IjpbLTExNDE0MTA2NDQsLTgxODM5NTM1OSwxOD
+k4OTYzOTkyLDg5OTM5NjA4NCwtMjA2NjY0NjU2OCwtNTYwMjA1
+ODYzLDE3MTg0MzUyMDQsOTM1Mzc4MDk2LC0xNjk3ODA1NDQ3LD
+EwOTk2MzcwODcsLTEwMDcyNDk3ODEsLTE4ODE0MTY1OTgsNDYw
+NTU2NTY4LDE2NjA5MDQ2NDIsLTUzMDU1NjIzMiwtMTU2Mjg0ND
+ExLC0xMjg3MTY2NDU1LC0xMjg3MTY2NDU1LC02NjQwNjQ3MzMs
+NzU5MjQzOTM1XX0=
 -->
