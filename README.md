@@ -138,7 +138,7 @@ This can be viewed within the UI, via the tabs named below and are hyperlinked t
 ### Understanding The Scope of Vulnerabilities 
 
 Since the scanned image is marked as compliant aginst the **Default** image assurance policy, we can take a closer look into what vulnerabilities the container image has  within it and how that relates to files and packages. This can be done using the Vulnerabilities tab.
-
+![Image Detail](https://github.com/kenmccann/advanced-tier-offering/blob/master/image/vulns-list-pkgs.png?raw=true)
 Aquasec will show all the vulnerabilities  within that image by showing the associated packages and files that they belong to. 
 
 Clicking on it will provide info to the customer about that vulnerability
@@ -183,10 +183,10 @@ Build pipelines can be configured to use the scanner for a customer and scan ima
 5. Image Scan Webhook use to send scan results and integrate with Postee to provide image build notifications.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxODQzNTIwNCw5MzUzNzgwOTYsLTE2OT
-c4MDU0NDcsMTA5OTYzNzA4NywtMTAwNzI0OTc4MSwtMTg4MTQx
-NjU5OCw0NjA1NTY1NjgsMTY2MDkwNDY0MiwtNTMwNTU2MjMyLC
-0xNTYyODQ0MTEsLTEyODcxNjY0NTUsLTEyODcxNjY0NTUsLTY2
-NDA2NDczMyw3NTkyNDM5MzUsLTE3MzMzMDM1ODgsMTc0Nzc2Nz
-QwOF19
+eyJoaXN0b3J5IjpbLTEyMDU0MzA2MzcsMTcxODQzNTIwNCw5Mz
+UzNzgwOTYsLTE2OTc4MDU0NDcsMTA5OTYzNzA4NywtMTAwNzI0
+OTc4MSwtMTg4MTQxNjU5OCw0NjA1NTY1NjgsMTY2MDkwNDY0Mi
+wtNTMwNTU2MjMyLC0xNTYyODQ0MTEsLTEyODcxNjY0NTUsLTEy
+ODcxNjY0NTUsLTY2NDA2NDczMyw3NTkyNDM5MzUsLTE3MzMzMD
+M1ODgsMTc0Nzc2NzQwOF19
 -->
