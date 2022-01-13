@@ -130,7 +130,7 @@ Also highlight to the customer that they can find out about a particular image b
 ![Image Detail](https://github.com/kenmccann/advanced-tier-offering/blob/master/image/image-detail.png?raw=true)
 ### How the "Example" Image Assurance Policy effects the compliance of scan results
 
-![enter image description here](https://github.com/kenmccann/advanced-tier-offering/blob/master/image/alpine-ex-ia-pol-scan.png)
+![Applied custom image assurance policy](https://github.com/kenmccann/advanced-tier-offering/blob/master/image/alpine-ex-ia-pol-scan.png?raw=true)
 ### New header
 
 You will probably want to show the customer the additional data tabs, such as :
@@ -167,8 +167,8 @@ Build pipelines can be configured to use the scanner for a customer and scan ima
 5. Image Scan Webhook use to send scan results and integrate with Postee to provide image build notifications.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODYwODk0MzMsLTUzMDU1NjIzMiwtMT
-U2Mjg0NDExLC0xMjg3MTY2NDU1LC0xMjg3MTY2NDU1LC02NjQw
-NjQ3MzMsNzU5MjQzOTM1LC0xNzMzMzAzNTg4LDE3NDc3Njc0MD
-hdfQ==
+eyJoaXN0b3J5IjpbLTk2NDYwNzc0LC01MzA1NTYyMzIsLTE1Nj
+I4NDQxMSwtMTI4NzE2NjQ1NSwtMTI4NzE2NjQ1NSwtNjY0MDY0
+NzMzLDc1OTI0MzkzNSwtMTczMzMwMzU4OCwxNzQ3NzY3NDA4XX
+0=
 -->
