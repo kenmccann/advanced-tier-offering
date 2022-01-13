@@ -146,7 +146,7 @@ Clicking on one of the package vulnerabilities in the UI will provide  informati
 
 You can see more  about this in this [link](https://docs.aquasec.com/docs/vulnerabilities-tab#section-description)
 
-It's useful to go through this with the  customer and refer  to the vulnerability details that are highlighed which is related to the package so the customer  can gain more valuable ins
+It's useful to go through this with the  customer and refer  to the vulnerability details that are highlighed which is related to the package so the customer  can gain more valuable insights of the CVE's found and how they might want to think about fixing those in the images within their registry as well as learning about the Aqua console and scanning capabilties.
 
 --
 
@@ -189,11 +189,11 @@ Build pipelines can be configured to use the scanner for a customer and scan ima
 5. Image Scan Webhook use to send scan results and integrate with Postee to provide image build notifications.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTA0NjM1MDMsMTgxNTM2NTI3NiwtMT
-E0MTQxMDY0NCwtODE4Mzk1MzU5LDE4OTg5NjM5OTIsODk5Mzk2
-MDg0LC0yMDY2NjQ2NTY4LC01NjAyMDU4NjMsMTcxODQzNTIwNC
-w5MzUzNzgwOTYsLTE2OTc4MDU0NDcsMTA5OTYzNzA4NywtMTAw
-NzI0OTc4MSwtMTg4MTQxNjU5OCw0NjA1NTY1NjgsMTY2MDkwND
-Y0MiwtNTMwNTU2MjMyLC0xNTYyODQ0MTEsLTEyODcxNjY0NTUs
-LTEyODcxNjY0NTVdfQ==
+eyJoaXN0b3J5IjpbNDE5NDU4OTkyLDE4MTUzNjUyNzYsLTExND
+E0MTA2NDQsLTgxODM5NTM1OSwxODk4OTYzOTkyLDg5OTM5NjA4
+NCwtMjA2NjY0NjU2OCwtNTYwMjA1ODYzLDE3MTg0MzUyMDQsOT
+M1Mzc4MDk2LC0xNjk3ODA1NDQ3LDEwOTk2MzcwODcsLTEwMDcy
+NDk3ODEsLTE4ODE0MTY1OTgsNDYwNTU2NTY4LDE2NjA5MDQ2ND
+IsLTUzMDU1NjIzMiwtMTU2Mjg0NDExLC0xMjg3MTY2NDU1LC0x
+Mjg3MTY2NDU1XX0=
 -->
