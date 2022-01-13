@@ -1,6 +1,9 @@
 ![Aqua Security Software](https://github.com/kenmccann/advanced-tier-offering/blob/master/image/aqua-logo-black.png?raw=true)
 
 # Advanced Tier Work Package
+*Produced by Daniel Cave, 
+DevSecOps Architect, Aqua Security. January 2022.*
+
 The consultant will lead the end customer to cover the subjects mentioned below over a one to two day period using this guide. These sessions will be a combination of instructor led training and examples based on real world use cases and provide the customer with the opportunity to carry out the scenarios for themselves.
 
 Topics to cover:
@@ -20,12 +23,12 @@ At a high level, Aqua can be configured to scan container images from several su
 
 The Venn diagram below represents the relationships between each of the Aqua Components.
 
-![](image/3vens.png)
-Naturally, vulnerability scanning cannot happen without integrating the customer’s container registries, and image scanning is dependent upon those registries existing within the Aqua console.
+![](https://github.com/kenmccann/advanced-tier-offering/blob/master/image/3vens.png?raw=true)
+Vulnerability scanning cannot happen without integrating the customer’s container registries into Aquasec and image scanning is dependent upon those registries existing within the Aqua console.
 
-By default, Aqua provides an existing container registry integration out of the box, which is Docker Hub. This can be used to scan public images and is a good starting point to show customers if they want to see this work out of the box.
+By default, Aquasec's registry configuration provides an existing container registry integration out of the box, which is Docker Hub. This can be used to scan public images and is a good starting point to show customers if they want to see this work out of the box.
 
-Additionally, no Image Assurance policies can be applied to images from a repo, without a container registry existing, after the results of an image being pulled and scanned from the image repo within the registry for a particular image.
+Additionally,  Image Assurance policies cannot be applied to images from a repo, unless they originate from a configured container registry.  
 
 Aqua provides a set of baseline Image Assurance Policies out of the box, that provide several controls that are applied to the images from the repositories in each container registry.
 
@@ -47,22 +50,37 @@ We recommend that you take time to do this in advance to check it works per the 
 
 **Session Aim:** Help the customer identify which Image assurance controls they wish to use for their business and use case and explore which controls fit their needs. It will be of benefit for the customer to show them what happens when one policy control is activated and applied and what the impact is on the scanned images and how a control makes the image non-compliant.  
   
+### Understanding Image Assurance controls
+
 Since Aqua provides two baseline policies for image assurance, one being the **Default** image policy and the other is for **DTA**.
 
-The Default image assurance policy is enough to get the customer started however it does not include any additional controls which means that you will need to get a better understanding of what they will want to include in their policy.
+The **Default** image assurance policy is enough to get the customer started however it does not include any additional controls which means that you will need to get a better understanding of what they will want to include in their policy.
 
-One of the ways to do this is to start with a custom policy with a handful of controls such as the one shown below.
+### Creating a custom policy for your customers use case
+One of the ways to do this is to start with a custom policy with a handful of controls such as the one shown below. It's a good idea to start with a few controls within one policy to keep it simple, this makes interpreting and acting upon the results easier for the customer to digest as they learn how Aquasec IA works, instead of creating a policy with all the controls and potentially overwhelming the customer with far too much information to process.
+
+In any customer setup you would start with a few basic policy controls such as :
+ - Malware
+ - Sensitive Data
+ - Vulnerability Score &/or Severity
+ 
+ The vulnerability score can be modified on the sliding scale depending on the customers policy or posture towards risk according to their environments.
+
 ![Example Image Assurance Policy](https://github.com/kenmccann/advanced-tier-offering/blob/master/image/policy1.png?raw=true)
+This example policy would mark any container image which has been scanned, or any new images that are scanned subsequently that contain any of the risk controls, as non compliant, in this example use case as they do not comply to this policy.
 
 We have provided a copy of this policy in JSON format which is saved to SharePoint in the PS architects [Policy Examples folder](https://aquasecurity.sharepoint.com/:u:/s/CustomerSuccessArchitects/Ef8DeoDr4V9Dl0HKaEZnopwBLGoIJC_uLILvPTWurlaKdg?e=bbDNwu) 
 
-You can customise this policy with the customer by selecting and deselecting the existing controls and even explore small changes with them in their console.
+You can customise this policy further with the customer by selecting and deselecting the existing controls and even explore small changes with them in their console.
 
 There is also a set of documents in the [PS Architecture SharePoint](https://aquasecurity.sharepoint.com/sites/CustomerSuccessArchitects/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FCustomerSuccessArchitects%2FShared%20Documents%2FGuides%2FPolicy%20Configuration&viewid=2c0cd9c5%2Dfb91%2D4dd5%2D8362%2D3f8bb3e566f9) that covers best practices for Image Assurance
 
-Since all the Image Assurance policies can be created and applied in a layered fashion, they will control within the policies apply to all images which have been scanned within the Aqua SaaS console and effect the results against each image and additional images that are scanned thereafter.
+### Additional customised Policies
+
+Since it is possible to create multiple custom policies they will all be applied  and combined in a layered fashion,  thus control will be applied to all images which have been scanned within the Aqua SaaS console and effect the results against each image and additional images that are scanned thereafter.
 
 The impact of this means that if the image does not comply with the assurance polices, that image is deemed as non-compliant. More information about IA can be found on the Documentation portal.
+
 
 ### GitOps  
   
@@ -72,14 +90,35 @@ _Do we want to cover this by explaining how policies within aqua can be created,
 
 Once your customer has integrated their container registry into the Aqua Saas console, you will be able to guide the customer as to how they start scanning images and producing vulnerability reports.
 
-  
 **Session aim**: The consultant should work with the customer to provide a high-level view and example of scanning images from a public docker repo, explaining the Vulnerability results and Risk based insights using the SaaS console.  Explaining to the customer how to interpret and understand the results and what they mean.
 
-First start by selecting a couple of images from Docker hub, such as alpine:3.4 and ubuntu:14.04 to show the customer the kind of information which is obtained about images when they are scanned etc.
+### Understanding Image Scanning within Aquasec
+First start by selecting a couple of images from Docker hub, such as alpine:3.4 and ubuntu:14.04 to show the customer the kind of information which is obtained when they are scanned and what vulnerabilies & CVE's are likely to exist for images within the container.
 
-You should guide the customer through the scan results for the selected images and provide advice and direction of what this means and cover the tabs and data collected about the image within the UI.  
-  
+### Invoking a Manual Scan
+
+Images can be scanned independently by using the "Add Images" button within the Images part of the UI.   The  documentation link  [here](https://docs.aquasec.com/docs/repository-operations) explains more about how this process works - it's  largely intuitive - it also covers more details about the registry settings and configurations used by customers.
+
+For our example use case, we have added the alpine:3:4 image to the scan queue which then invokes the scan (via a docker pull). The Aquasec scanner scans the container image, reports the results back to the console which can be seen in the UI against the registry and repo name.
+
+Some customers may ask:
+
+> How does the Aquasec get the information about vulnerabilities and CVE's from the container?
+
+Basically, the Aquasec scanner decomposes the container image and scans each layer and creates a sha256 hash of each file/binary within that layer. The results are sent with the  information about the container including it's digest and content hash to Cybercenter [ our cloud vulnerability DB ]  for it to process and identify which files and pakages it recognises, then Cybercenter sends those results back for the console to process the results within the UI. This is what you see in the screen shot below.
+
 ![Images Screen](https://github.com/kenmccann/advanced-tier-offering/blob/master/image/vulnerabilities.png?raw=true)
+We can see that there are 42  vulnerabilities found within the image that are categorised with the following severity & colour :
+
+ - 2 Critical			Dark Red
+ - 15 High			Red
+ - 21 Medium	Orange
+ - 6 Low				Amber
+ - 0 Low				Grey
+
+This provides a high level view and additional details can be obtained from within the UI 
+You should guide the customer through the scan results for the selected images and provide advice and direction of what this means and cover the tabs and data collected about the image within the UI.  
+
 - Scan Queue
 - Host Images
 - Identifying
@@ -123,7 +162,7 @@ Build pipelines can be configured to use the scanner for a customer and scan ima
 5. Image Scan Webhook use to send scan results and integrate with Postee to provide image build notifications.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODcxNjY0NTUsLTEyODcxNjY0NTUsLT
-Y2NDA2NDczMyw3NTkyNDM5MzUsLTE3MzMzMDM1ODgsMTc0Nzc2
-NzQwOF19
+eyJoaXN0b3J5IjpbLTE1NjI4NDQxMSwtMTI4NzE2NjQ1NSwtMT
+I4NzE2NjQ1NSwtNjY0MDY0NzMzLDc1OTI0MzkzNSwtMTczMzMw
+MzU4OCwxNzQ3NzY3NDA4XX0=
 -->
