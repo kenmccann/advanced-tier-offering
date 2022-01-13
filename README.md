@@ -121,7 +121,16 @@ We can see that there are 44  vulnerabilities found within the image that are ca
  - 6 Low				 
  - 0 Low				 
 
-Additional details can be obtained from the scan results for the selected images and provide advice and direction of what this means and cover the tabs and data collected about the image within the UI, via
+Additional details can be obtained from the scan results for the selected images and provide advice and direction of what this means and cover the tabs and data collected about the image within the UI, via the tabs :
+
+ - Vulnerabilties
+ - Layers
+ - Resources
+ - Sensitive Data
+ - Malware
+ - Information
+ - Scan history
+ - Audit
 
 ![Image Detail](https://github.com/kenmccann/advanced-tier-offering/blob/master/image/image-detail.png?raw=true)
 ### How the "Example" Image Assurance Policy effects the compliance of scan results
@@ -163,8 +172,8 @@ Build pipelines can be configured to use the scanner for a customer and scan ima
 5. Image Scan Webhook use to send scan results and integrate with Postee to provide image build notifications.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAwODQxNTQ3LDE2NjA5MDQ2NDIsLTUzMD
-U1NjIzMiwtMTU2Mjg0NDExLC0xMjg3MTY2NDU1LC0xMjg3MTY2
-NDU1LC02NjQwNjQ3MzMsNzU5MjQzOTM1LC0xNzMzMzAzNTg4LD
-E3NDc3Njc0MDhdfQ==
+eyJoaXN0b3J5IjpbLTE3MDg0OTU1NDEsMTY2MDkwNDY0MiwtNT
+MwNTU2MjMyLC0xNTYyODQ0MTEsLTEyODcxNjY0NTUsLTEyODcx
+NjY0NTUsLTY2NDA2NDczMyw3NTkyNDM5MzUsLTE3MzMzMDM1OD
+gsMTc0Nzc2NzQwOF19
 -->
