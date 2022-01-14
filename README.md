@@ -148,11 +148,11 @@ Clicking on one of the package vulnerabilities in the UI will provide  informati
 
 You can see more  about this in this [link](https://docs.aquasec.com/docs/vulnerabilities-tab#section-description)
 
-It's useful to go through this with the  customer, referring  each of the vulnerability details that are highlighed,  relating to the affected packages  so the customer can gain  valuable insights of the CVE's found and how they might want to think about acknowledging and  fixing those in the images within their registry as well as learning about the Aqua console and scanning capabilties.
+It's useful to go through this with the  customer, referring  each of the vulnerability details that are highlighed,  relating to the affected packages  so the customer can gain  valuable insights of the CVE's found and how they might want to think about tackling those by acknowledging and fixing these. 
 
 ###  How to approach remediation of vulnerabilities
 
-Your customer  might  want  to [manage and   acknowledge](https://docs.aquasec.com/docs/apply-and-manage-security-issue-acknowledgments)   the vulnerabiltiies which they  have indentified to  work  through
+Your customer  might  want  to [manage and   acknowledge](https://docs.aquasec.com/docs/apply-and-manage-security-issue-acknowledgments)   the vulnerabiltiies which they  have indentified to  work  through.
 
 Within  Aquasec there are two main options  for vulnerability remediation although it's not considered  to be  a *fix* but  more of a band-aid. Where  a vulnerability does  not have  a vendor fix  the  customer  can use the  vShield capability which  is explained  here   
 
@@ -200,7 +200,7 @@ Build pipelines can be configured to use the scanner for a customer and scan ima
 5. Image Scan Webhook use to send scan results and integrate with Postee to provide image build notifications.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMTU3NDk0MywxNDg5MjkxNTUsMjAyOT
+eyJoaXN0b3J5IjpbMTQzMzE1MzcxMiwxNDg5MjkxNTUsMjAyOT
 Y3OTA0LC0xNjUxNDc3MzQwLDE4MDUyNDA4NjcsMTgxNTM2NTI3
 NiwtMTE0MTQxMDY0NCwtODE4Mzk1MzU5LDE4OTg5NjM5OTIsOD
 k5Mzk2MDg0LC0yMDY2NjQ2NTY4LC01NjAyMDU4NjMsMTcxODQz
