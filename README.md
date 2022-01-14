@@ -187,21 +187,21 @@ A list of supported CI/CD integrations is provided [here](https://docs.aquasec.c
 
 Speaking with your customer can give you an understanding of their environment and application landscape before embarking on this task as part of your ongoing workshop.
 
-Build pipelines can be configured to use the scanner for a customer and scan images either using the proprietary Aqua CI tool scanner plug-in or via pipeline step by invoking docker or another supported  container runtime.
+Build pipelines can be configured to use the scanner for a customer and scan images either using the proprietary Aqua CI tool scanner plug-in or vi[enter link description here](https://docs.aquasec.com/docs/jenkins-image-scanning-integration#section-jenkins-plugin-image-scanning-results)a pipeline step by invoking docker or another supported  container runtime.
 
 1. Show the customer how easy it is to scan an image, [by creating a Jenkins pipeline](https://docs.aquasec.com/docs/jenkins-image-scanning-integration) -   the link  provides  all t he  instructions  to do this and how to use the Aqua scanner Plug-in and parametrise the _Image Name_ as a variable so that any image can be scanned using a Jenkins job by providing build parameters.
 2. Demonstrate this pipeline working and explain how this can be used by others in the organisation indirectly without needing to access the Aqua console. I.e., a developer or member of a DevOps team can scan images, as part of the first step to making images compliant.
 3. Highlight how Aqua will **_fail_** the pipeline scan if the image being scanned fails the existing Image Assurance policies – you can modify the controls accordingly to show that.
-4. Highlight how the image scan results are presented within Jenkins CI as part of the completed job ID and that it’s an HTML representation of the CI/CD scan step which is also present in the Images > CI/CD scans within the UI.
+4. Highlight how the image scan results are presented within Jenkins CI as part of the completed job ID and that it’s an HTML representation of the CI/CD scan step which is also present in the Images > CI/CD scans within the UI. This is  covered in the documenation site page  here
 5. Image Scan Webhook use to send scan results and integrate with Postee to provide image build notifications.
 
-##
+### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NTk5ODY2NCwtNDQwMDg4MTUsLTc5NT
-g3MDI3NSwyMDA3NjA0NzU2LC0xNzE2ODkzMzMyLDE0ODkyOTE1
-NSwyMDI5Njc5MDQsLTE2NTE0NzczNDAsMTgwNTI0MDg2NywxOD
-E1MzY1Mjc2LC0xMTQxNDEwNjQ0LC04MTgzOTUzNTksMTg5ODk2
-Mzk5Miw4OTkzOTYwODQsLTIwNjY2NDY1NjgsLTU2MDIwNTg2My
-wxNzE4NDM1MjA0LDkzNTM3ODA5NiwtMTY5NzgwNTQ0NywxMDk5
-NjM3MDg3XX0=
+eyJoaXN0b3J5IjpbODA2ODE3NjE0LC00NDAwODgxNSwtNzk1OD
+cwMjc1LDIwMDc2MDQ3NTYsLTE3MTY4OTMzMzIsMTQ4OTI5MTU1
+LDIwMjk2NzkwNCwtMTY1MTQ3NzM0MCwxODA1MjQwODY3LDE4MT
+UzNjUyNzYsLTExNDE0MTA2NDQsLTgxODM5NTM1OSwxODk4OTYz
+OTkyLDg5OTM5NjA4NCwtMjA2NjY0NjU2OCwtNTYwMjA1ODYzLD
+E3MTg0MzUyMDQsOTM1Mzc4MDk2LC0xNjk3ODA1NDQ3LDEwOTk2
+MzcwODddfQ==
 -->
