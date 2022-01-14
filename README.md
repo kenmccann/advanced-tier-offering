@@ -189,7 +189,7 @@ Speaking with your customer can give you an understanding of their environment a
 
 Build pipelines can be configured to use the scanner for a customer and scan images either using the proprietary Aqua CI tool scanner plug-in or via pipeline step by invoking docker or another supported  container runtime.
 
-1. Show the customer how easy it is to scan an image, [by creating a Jenkins pipeline](https://docs.aquasec.com/docs/jenkins-image-scanning-integration) to use Aqua scanner Plug-in and parametrise the _Image Name_ as a variable so that any image can be scanned using a Jenkins job by providing build parameters.
+1. Show the customer how easy it is to scan an image, [by creating a Jenkins pipeline](https://docs.aquasec.com/docs/jenkins-image-scanning-integration) -   the link  provides  all t he  instructions  to do this and how to use the Aqua scanner Plug-in and parametrise the _Image Name_ as a variable so that any image can be scanned using a Jenkins job by providing build parameters.
 2. Demonstrate this pipeline working and explain how this can be used by others in the organisation indirectly without needing to access the Aqua console. I.e., a developer or member of a DevOps team can scan images, as part of the first step to making images compliant.
 3. Highlight how Aqua will **_fail_** the pipeline scan if the image being scanned fails the existing Image Assurance policies – you can modify the controls accordingly to show that.
 4. Highlight how the image scan results are presented within Jenkins CI as part of the completed job ID and that it’s an HTML representation of the CI/CD scan step which is also present in the Images > CI/CD scans within the UI.
@@ -197,11 +197,11 @@ Build pipelines can be configured to use the scanner for a customer and scan ima
 
 ##
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MDA4ODE1LC03OTU4NzAyNzUsMjAwNz
-YwNDc1NiwtMTcxNjg5MzMzMiwxNDg5MjkxNTUsMjAyOTY3OTA0
-LC0xNjUxNDc3MzQwLDE4MDUyNDA4NjcsMTgxNTM2NTI3NiwtMT
-E0MTQxMDY0NCwtODE4Mzk1MzU5LDE4OTg5NjM5OTIsODk5Mzk2
-MDg0LC0yMDY2NjQ2NTY4LC01NjAyMDU4NjMsMTcxODQzNTIwNC
-w5MzUzNzgwOTYsLTE2OTc4MDU0NDcsMTA5OTYzNzA4NywtMTAw
-NzI0OTc4MV19
+eyJoaXN0b3J5IjpbLTc2NTk5ODY2NCwtNDQwMDg4MTUsLTc5NT
+g3MDI3NSwyMDA3NjA0NzU2LC0xNzE2ODkzMzMyLDE0ODkyOTE1
+NSwyMDI5Njc5MDQsLTE2NTE0NzczNDAsMTgwNTI0MDg2NywxOD
+E1MzY1Mjc2LC0xMTQxNDEwNjQ0LC04MTgzOTUzNTksMTg5ODk2
+Mzk5Miw4OTkzOTYwODQsLTIwNjY2NDY1NjgsLTU2MDIwNTg2My
+wxNzE4NDM1MjA0LDkzNTM3ODA5NiwtMTY5NzgwNTQ0NywxMDk5
+NjM3MDg3XX0=
 -->
