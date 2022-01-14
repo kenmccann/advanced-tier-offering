@@ -152,7 +152,7 @@ It's useful to go through this with the  customer, referring  each of the vulner
 
 ###  How to approach remediation of vulnerabilities
 
-Your customer  might  want  to [manage and   acknowledge](https://docs.aquasec.com/docs/apply-and-manage-security-issue-acknowledgments)   the vulnerabiltiies which they  have indentified to  work  through.  The  documetnation  link covers  several  sets  of  features  which  can  make  the task  of handling vulnerabilties within  Aqua easier to  handle. 
+Your customer  might  want  to [manage and   acknowledge](https://docs.aquasec.com/docs/apply-and-manage-security-issue-acknowledgments)   the vulnerabiltiies which they  have indentified to  work  through.  The  documetnation  link covers  several  sets  of  features  which  can  make  the task  of handling vulnerabilties within  Aqua easier to handle. 
  
 There is  also  a section in  our documentation  dedicated to [Reactive Risk Management](https://docs.aquasec.com/docs/reactive-risk-management) -   this covers the  following items:
 
@@ -164,7 +164,7 @@ There is  also  a section in  our documentation  dedicated to [Reactive Risk Man
  - Allowing  and Blocking images
  - Assigning  custom severity labels  to selected vulnerabilities
  - Managing Malware
- - Managing Sensitive Dat
+ - Managing Sensitive Data
  - Managing Image Assurance Policiy Violations
 
 ### How the "Example" Image Assurance Policy effects the compliance of scan results
@@ -203,12 +203,13 @@ There is also  a PDF  which  explains how  to  integrate  with Active  Directory
 Using the SSO integration  within  your customers Aqua deployment will enable them to take  advantage of several features such as application  scopes, permission sets (as part of the   [Aqua RBAC](https://docs.aquasec.com/docs/rbac-overview)  functionality ) and align developer, security auditing, vulnerability managers  and administrator  groups within AD, giving an additional layer of granularity and access to the images, vulnerabilties and applications  which matter most to them. 
 
 ### SIEM and logging  Integration
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MjM5NDAwOCwtMTYzMzA1MDk0NiwtMT
-cwMDEzMDM2Niw4MDY4MTc2MTQsLTQ0MDA4ODE1LC03OTU4NzAy
-NzUsMjAwNzYwNDc1NiwtMTcxNjg5MzMzMiwxNDg5MjkxNTUsMj
-AyOTY3OTA0LC0xNjUxNDc3MzQwLDE4MDUyNDA4NjcsMTgxNTM2
-NTI3NiwtMTE0MTQxMDY0NCwtODE4Mzk1MzU5LDE4OTg5NjM5OT
-IsODk5Mzk2MDg0LC0yMDY2NjQ2NTY4LC01NjAyMDU4NjMsMTcx
-ODQzNTIwNF19
+eyJoaXN0b3J5IjpbNDM2OTQzMTI3LDE1NjIzOTQwMDgsLTE2Mz
+MwNTA5NDYsLTE3MDAxMzAzNjYsODA2ODE3NjE0LC00NDAwODgx
+NSwtNzk1ODcwMjc1LDIwMDc2MDQ3NTYsLTE3MTY4OTMzMzIsMT
+Q4OTI5MTU1LDIwMjk2NzkwNCwtMTY1MTQ3NzM0MCwxODA1MjQw
+ODY3LDE4MTUzNjUyNzYsLTExNDE0MTA2NDQsLTgxODM5NTM1OS
+wxODk4OTYzOTkyLDg5OTM5NjA4NCwtMjA2NjY0NjU2OCwtNTYw
+MjA1ODYzXX0=
 -->
