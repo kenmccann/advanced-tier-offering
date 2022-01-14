@@ -196,13 +196,13 @@ Build pipelines can be configured to use the scanner for a customer and scan ima
 5. Image Scan Webhook use to send scan results and integrate with Postee to provide image build notifications.
 
 ### Aqua SSO  and  SAML  integration
-Aqua  Enterprise SaaS edition  can  easily be integrated  with  a  number of  
+Aqua  Enterprise SaaS edition  can  easily be integrated  with  a  number of third  party SSO and SAML based IPD  systems. We cover this  in our documentation  and  you will most   likely want  to d iscuss 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NjkwMTY4MCw4MDY4MTc2MTQsLTQ0MD
-A4ODE1LC03OTU4NzAyNzUsMjAwNzYwNDc1NiwtMTcxNjg5MzMz
-MiwxNDg5MjkxNTUsMjAyOTY3OTA0LC0xNjUxNDc3MzQwLDE4MD
-UyNDA4NjcsMTgxNTM2NTI3NiwtMTE0MTQxMDY0NCwtODE4Mzk1
-MzU5LDE4OTg5NjM5OTIsODk5Mzk2MDg0LC0yMDY2NjQ2NTY4LC
-01NjAyMDU4NjMsMTcxODQzNTIwNCw5MzUzNzgwOTYsLTE2OTc4
-MDU0NDddfQ==
+eyJoaXN0b3J5IjpbODEwOTU1MjAyLDgwNjgxNzYxNCwtNDQwMD
+g4MTUsLTc5NTg3MDI3NSwyMDA3NjA0NzU2LC0xNzE2ODkzMzMy
+LDE0ODkyOTE1NSwyMDI5Njc5MDQsLTE2NTE0NzczNDAsMTgwNT
+I0MDg2NywxODE1MzY1Mjc2LC0xMTQxNDEwNjQ0LC04MTgzOTUz
+NTksMTg5ODk2Mzk5Miw4OTkzOTYwODQsLTIwNjY2NDY1NjgsLT
+U2MDIwNTg2MywxNzE4NDM1MjA0LDkzNTM3ODA5NiwtMTY5Nzgw
+NTQ0N119
 -->
