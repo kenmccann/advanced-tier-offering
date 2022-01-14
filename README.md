@@ -183,6 +183,8 @@ At a high level Aqua can work scan container images in an ad-hoc manner when com
 
 This could mean that an organisation might have a variety of different CI tools, for example a TeamCity CI platform for Windows images and applications and Jenkins or GitLabs for Linux containers and Linux based Apps, or even Azure DevOps.
 
+A list  of  supported CI/CD integrations is provided here
+
 Speaking with your customer can give you an understanding of their environment and application landscape before embarking on this task as part of your ongoing workshop.
 
 Build pipelines can be configured to use the scanner for a customer and scan images either using the proprietary Aqua CI tool scanner plug-in or via pipeline step by invoking docker or another supported  container runtime.
@@ -195,11 +197,11 @@ Build pipelines can be configured to use the scanner for a customer and scan ima
 
 ##
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NTg3MDI3NSwyMDA3NjA0NzU2LC0xNz
-E2ODkzMzMyLDE0ODkyOTE1NSwyMDI5Njc5MDQsLTE2NTE0Nzcz
-NDAsMTgwNTI0MDg2NywxODE1MzY1Mjc2LC0xMTQxNDEwNjQ0LC
-04MTgzOTUzNTksMTg5ODk2Mzk5Miw4OTkzOTYwODQsLTIwNjY2
-NDY1NjgsLTU2MDIwNTg2MywxNzE4NDM1MjA0LDkzNTM3ODA5Ni
-wtMTY5NzgwNTQ0NywxMDk5NjM3MDg3LC0xMDA3MjQ5NzgxLC0x
-ODgxNDE2NTk4XX0=
+eyJoaXN0b3J5IjpbLTU2Nzg2MTQzNywtNzk1ODcwMjc1LDIwMD
+c2MDQ3NTYsLTE3MTY4OTMzMzIsMTQ4OTI5MTU1LDIwMjk2Nzkw
+NCwtMTY1MTQ3NzM0MCwxODA1MjQwODY3LDE4MTUzNjUyNzYsLT
+ExNDE0MTA2NDQsLTgxODM5NTM1OSwxODk4OTYzOTkyLDg5OTM5
+NjA4NCwtMjA2NjY0NjU2OCwtNTYwMjA1ODYzLDE3MTg0MzUyMD
+QsOTM1Mzc4MDk2LC0xNjk3ODA1NDQ3LDEwOTk2MzcwODcsLTEw
+MDcyNDk3ODFdfQ==
 -->
