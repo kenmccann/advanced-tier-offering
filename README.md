@@ -24,9 +24,9 @@ At a high level, Aqua can be configured to scan container images from several su
 The Venn diagram below represents the relationships between each of the Aqua Components.
 
 ![](https://github.com/kenmccann/advanced-tier-offering/blob/master/image/3vens.png?raw=true)
-Vulnerability scanning cannot happen without integrating the customer’s container registries into Aquasec and image scanning is dependent upon those registries existing within the Aqua console.
+Vulnerability scanning cannot happen without integrating the customer’s container registries into Aqua and image scanning is dependent upon those registries existing within the Aqua console.
 
-By default, Aquasec's registry configuration provides an existing container registry integration out of the box, which is Docker Hub. This can be used to scan public images and is a good starting point to show customers if they want to see this work out of the box.
+By default, Aqua's registry configuration provides an existing container registry integration out of the box, which is Docker Hub. This can be used to scan public images and is a good starting point to show customers if they want to see this work out of the box.
 
 Additionally,  Image Assurance policies cannot be applied to images from a repo, unless they originate from a configured container registry.  
 
@@ -57,7 +57,7 @@ Since Aqua provides two baseline policies for image assurance, one being the **D
 The **Default** image assurance policy is enough to get the customer started however it does not include any additional controls which means that you will need to get a better understanding of what they will want to include in their policy.
 
 ### Creating a custom policy for your customers use case
-One of the ways to do this is to start with a custom policy with a handful of controls such as the one shown below. It's a good idea to start with a few controls within one policy to keep it simple, this makes interpreting and acting upon the results easier for the customer to digest as they learn how Aquasec IA works, instead of creating a policy with all the controls and potentially overwhelming the customer with far too much information to process.
+One of the ways to do this is to start with a custom policy with a handful of controls such as the one shown below. It's a good idea to start with a few controls within one policy to keep it simple, this makes interpreting and acting upon the results easier for the customer to digest as they learn how Aqua's IA works, instead of creating a policy with all the controls and potentially overwhelming the customer with far too much information to process.
 
 In any customer setup you would start with a few basic policy controls such as :
  - Malware
@@ -92,20 +92,20 @@ Once your customer has integrated their container registry into the Aqua Saas co
 
 **Session aim**: The consultant should work with the customer to provide a high-level view and example of scanning images from a public docker repo, explaining the Vulnerability results and Risk based insights using the SaaS console.  Explaining to the customer how to interpret and understand the results and what they mean.
 
-### Understanding Image Scanning within Aquasec
+### Understanding Image Scanning within Aqua
 First start by selecting a couple of images from Docker hub, such as alpine:3.4 and ubuntu:14.04 to show the customer the kind of information which is obtained when they are scanned and what vulnerabilies & CVE's are likely to exist for images within the container.
 
 ### Invoking a Manual Scan
 
 Images can be scanned independently by using the "Add Images" button within the Images part of the UI.   The  documentation link  [here](https://docs.aquasec.com/docs/repository-operations) explains more about how this process works - it's  largely intuitive - it also covers more details about the registry settings and configurations used by customers.
 
-For our example use case, we have added the alpine:3:4 image to the scan queue which then invokes the scan (via a docker pull). The Aquasec scanner scans the container image, reports the results back to the console which can be seen in the UI against the registry and repo name.
+For our example use case, we have added the alpine:3:4 image to the scan queue which then invokes the scan (via a docker pull). The Aqua scanner scans the container image, reports the results back to the console which can be seen in the UI against the registry and repo name.
 
 Some customers may ask:
 
-> How does Aquasec get the information about vulnerabilities and CVE's from the container?
+> How does Aqua get the information about vulnerabilities and CVE's from the container?
 
-***Answer**: Basically, the Aquasec scanner decomposes the container image and scans each layer and creates a *sha256* hash of each file/binary within that layer. 
+***Answer**: Basically, the Aqua scanner decomposes the container image and scans each layer and creates a *sha256* hash of each file/binary within that layer. 
 
 The results containing all the hashes and details of the container, including it's digest and content hash are sent to Cybercenter [ our cloud vulnerability DB ]  for it to process and identify which files and pakages it recognises that contain vulnerabilties, then Cybercenter sends those results back for the console to process the results within the UI.* 
 
@@ -204,11 +204,11 @@ Using the SSO integration  within  your customers Aquasec deployment will enable
 
 ### SIEM and logging  Integration
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzMwNTA5NDYsLTE3MDAxMzAzNjYsOD
-A2ODE3NjE0LC00NDAwODgxNSwtNzk1ODcwMjc1LDIwMDc2MDQ3
-NTYsLTE3MTY4OTMzMzIsMTQ4OTI5MTU1LDIwMjk2NzkwNCwtMT
-Y1MTQ3NzM0MCwxODA1MjQwODY3LDE4MTUzNjUyNzYsLTExNDE0
-MTA2NDQsLTgxODM5NTM1OSwxODk4OTYzOTkyLDg5OTM5NjA4NC
-wtMjA2NjY0NjU2OCwtNTYwMjA1ODYzLDE3MTg0MzUyMDQsOTM1
-Mzc4MDk2XX0=
+eyJoaXN0b3J5IjpbLTE3NDE4ODQ2NzcsLTE2MzMwNTA5NDYsLT
+E3MDAxMzAzNjYsODA2ODE3NjE0LC00NDAwODgxNSwtNzk1ODcw
+Mjc1LDIwMDc2MDQ3NTYsLTE3MTY4OTMzMzIsMTQ4OTI5MTU1LD
+IwMjk2NzkwNCwtMTY1MTQ3NzM0MCwxODA1MjQwODY3LDE4MTUz
+NjUyNzYsLTExNDE0MTA2NDQsLTgxODM5NTM1OSwxODk4OTYzOT
+kyLDg5OTM5NjA4NCwtMjA2NjY0NjU2OCwtNTYwMjA1ODYzLDE3
+MTg0MzUyMDRdfQ==
 -->
