@@ -141,7 +141,7 @@ This can be viewed within the UI, via the tabs named below and are hyperlinked t
 
 Since the scanned image is marked as compliant aginst the **Default** image assurance policy, we can take a closer look into what vulnerabilities the container image has  within it and how that relates to files and packages. This can be done using the Vulnerabilities tab.
 ![container image cve list](https://github.com/kenmccann/advanced-tier-offering/blob/master/image/vulns-list-pkgs.png?raw=true)
-Aquasec will show all the vulnerabilities  within that image by showing the associated packages and files that they belong to.  We  see the  first  few  of columns which shows  the CVE's by name and Severity, which are  Critical  and High  Cve's  for  the  first few rows. 
+Aqua will show all the vulnerabilities  within that image by showing the associated packages and files that they belong to.  We  see the  first  few  of columns which shows  the CVE's by name and Severity, which are  Critical  and High  Cve's  for  the  first few rows. 
 
 Clicking on one of the package vulnerabilities in the UI will provide  information related to that vulnerability and what information that the vendor holds about it. 
 ![container image cve list](https://github.com/kenmccann/advanced-tier-offering/blob/master/image/vendor-cve.png?raw=true)
@@ -152,7 +152,7 @@ It's useful to go through this with the  customer, referring  each of the vulner
 
 ###  How to approach remediation of vulnerabilities
 
-Your customer  might  want  to [manage and   acknowledge](https://docs.aquasec.com/docs/apply-and-manage-security-issue-acknowledgments)   the vulnerabiltiies which they  have indentified to  work  through.  The  documetnation  link covers  several  sets  of  features  which  can  make  the task  of handling vulnerabilties within  Aquasec easier to  handle. 
+Your customer  might  want  to [manage and   acknowledge](https://docs.aquasec.com/docs/apply-and-manage-security-issue-acknowledgments)   the vulnerabiltiies which they  have indentified to  work  through.  The  documetnation  link covers  several  sets  of  features  which  can  make  the task  of handling vulnerabilties within  Aqua easier to  handle. 
  
 There is  also  a section in  our documentation  dedicated to [Reactive Risk Management](https://docs.aquasec.com/docs/reactive-risk-management) -   this covers the  following items:
 
@@ -200,15 +200,15 @@ Aqua  Enterprise SaaS edition  can  easily be integrated  with  a  number of thi
 
 There is also  a PDF  which  explains how  to  integrate  with Active  Directory  which  can be obtiained on request  that helps  most customers to  set  this up.
 
-Using the SSO integration  within  your customers Aquasec deployment will enable them to take  advantage of several features such as application  scopes, permission sets (as part of the   [Aqua RBAC](https://docs.aquasec.com/docs/rbac-overview)  functionality ) and align developer, security auditing, vulnerability managers  and administrator  groups within AD, giving an additional layer of granularity and access to the images, vulnerabilties and applications  which matter most to them. 
+Using the SSO integration  within  your customers Aqua deployment will enable them to take  advantage of several features such as application  scopes, permission sets (as part of the   [Aqua RBAC](https://docs.aquasec.com/docs/rbac-overview)  functionality ) and align developer, security auditing, vulnerability managers  and administrator  groups within AD, giving an additional layer of granularity and access to the images, vulnerabilties and applications  which matter most to them. 
 
 ### SIEM and logging  Integration
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDE4ODQ2NzcsLTE2MzMwNTA5NDYsLT
-E3MDAxMzAzNjYsODA2ODE3NjE0LC00NDAwODgxNSwtNzk1ODcw
-Mjc1LDIwMDc2MDQ3NTYsLTE3MTY4OTMzMzIsMTQ4OTI5MTU1LD
-IwMjk2NzkwNCwtMTY1MTQ3NzM0MCwxODA1MjQwODY3LDE4MTUz
-NjUyNzYsLTExNDE0MTA2NDQsLTgxODM5NTM1OSwxODk4OTYzOT
-kyLDg5OTM5NjA4NCwtMjA2NjY0NjU2OCwtNTYwMjA1ODYzLDE3
-MTg0MzUyMDRdfQ==
+eyJoaXN0b3J5IjpbMTU2MjM5NDAwOCwtMTYzMzA1MDk0NiwtMT
+cwMDEzMDM2Niw4MDY4MTc2MTQsLTQ0MDA4ODE1LC03OTU4NzAy
+NzUsMjAwNzYwNDc1NiwtMTcxNjg5MzMzMiwxNDg5MjkxNTUsMj
+AyOTY3OTA0LC0xNjUxNDc3MzQwLDE4MDUyNDA4NjcsMTgxNTM2
+NTI3NiwtMTE0MTQxMDY0NCwtODE4Mzk1MzU5LDE4OTg5NjM5OT
+IsODk5Mzk2MDg0LC0yMDY2NjQ2NTY4LC01NjAyMDU4NjMsMTcx
+ODQzNTIwNF19
 -->
