@@ -152,7 +152,7 @@ It's useful to go through this with the  customer and refer  to the vulnerabilit
 
 ###  How to approach remediation  of vulnerabilities
 
-irrq
+Within  Aquasec there are two main options  for vulnerability remediation although it's not considered  to be  a *fix* but  more of a band-aid. Where  a vulnerability does  not have  a vendor fix  the  customer  can use v
 
 ### How the "Example" Image Assurance Policy effects the compliance of scan results
 
@@ -196,11 +196,11 @@ Build pipelines can be configured to use the scanner for a customer and scan ima
 5. Image Scan Webhook use to send scan results and integrate with Postee to provide image build notifications.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NTUwODI4MCwtMTY1MTQ3NzM0MCwxOD
-A1MjQwODY3LDE4MTUzNjUyNzYsLTExNDE0MTA2NDQsLTgxODM5
-NTM1OSwxODk4OTYzOTkyLDg5OTM5NjA4NCwtMjA2NjY0NjU2OC
-wtNTYwMjA1ODYzLDE3MTg0MzUyMDQsOTM1Mzc4MDk2LC0xNjk3
-ODA1NDQ3LDEwOTk2MzcwODcsLTEwMDcyNDk3ODEsLTE4ODE0MT
-Y1OTgsNDYwNTU2NTY4LDE2NjA5MDQ2NDIsLTUzMDU1NjIzMiwt
-MTU2Mjg0NDExXX0=
+eyJoaXN0b3J5IjpbNjEwMjI1Mzg5LC0xNjUxNDc3MzQwLDE4MD
+UyNDA4NjcsMTgxNTM2NTI3NiwtMTE0MTQxMDY0NCwtODE4Mzk1
+MzU5LDE4OTg5NjM5OTIsODk5Mzk2MDg0LC0yMDY2NjQ2NTY4LC
+01NjAyMDU4NjMsMTcxODQzNTIwNCw5MzUzNzgwOTYsLTE2OTc4
+MDU0NDcsMTA5OTYzNzA4NywtMTAwNzI0OTc4MSwtMTg4MTQxNj
+U5OCw0NjA1NTY1NjgsMTY2MDkwNDY0MiwtNTMwNTU2MjMyLC0x
+NTYyODQ0MTFdfQ==
 -->
