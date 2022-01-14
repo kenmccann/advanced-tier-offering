@@ -148,7 +148,7 @@ Clicking on one of the package vulnerabilities in the UI will provide  informati
 
 You can see more  about this in this [link](https://docs.aquasec.com/docs/vulnerabilities-tab#section-description)
 
-It's useful to go through this with the  customer and refer  to the vulnerability details that are highlighed which is related to the package so the customer  can gain more valuable insights of the CVE's found and how they might want to think about acknowledging and  fixing those in the images within their registry as well as learning about the Aqua console and scanning capabilties.
+It's useful to go through this with the  customer, referring  each of the vulnerability details that are highlighed,  relating to the affected packages  so the customer can gain  valuable insights of the CVE's found and how they might want to think about acknowledging and  fixing those in the images within their registry as well as learning about the Aqua console and scanning capabilties.
 
 ###  How to approach remediation of vulnerabilities
 
@@ -200,7 +200,7 @@ Build pipelines can be configured to use the scanner for a customer and scan ima
 5. Image Scan Webhook use to send scan results and integrate with Postee to provide image build notifications.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MTM5NzAyNywxNDg5MjkxNTUsMjAyOT
+eyJoaXN0b3J5IjpbMTUwMTU3NDk0MywxNDg5MjkxNTUsMjAyOT
 Y3OTA0LC0xNjUxNDc3MzQwLDE4MDUyNDA4NjcsMTgxNTM2NTI3
 NiwtMTE0MTQxMDY0NCwtODE4Mzk1MzU5LDE4OTg5NjM5OTIsOD
 k5Mzk2MDg0LC0yMDY2NjQ2NTY4LC01NjAyMDU4NjMsMTcxODQz
