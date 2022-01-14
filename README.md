@@ -198,15 +198,15 @@ Build pipelines can be configured to use the scanner for a customer and scan ima
 ### Aqua SSO  and  SAML  Integration
 Aqua  Enterprise SaaS edition  can  easily be integrated  with  a  number of third  party SSO and SAML based IPD  systems. We cover this  in our [documentation](https://docs.aquasec.com/docs/saml-authentication-integration#configure-saml-authentication-with-an-idp)  and  you will most likely want  to d iscuss this with  your customer. 
 
-Using the SSO integration  within  your Aquasec deployment will enable you to take  advantage of 
+Using the SSO integration  within  your customers Aquasec deployment will enable them to take  advantage of several features  such as 
 
 ### SIEM and logging  Integration
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNzY2ODMzOCwtMTcwMDEzMDM2Niw4MD
-Y4MTc2MTQsLTQ0MDA4ODE1LC03OTU4NzAyNzUsMjAwNzYwNDc1
-NiwtMTcxNjg5MzMzMiwxNDg5MjkxNTUsMjAyOTY3OTA0LC0xNj
-UxNDc3MzQwLDE4MDUyNDA4NjcsMTgxNTM2NTI3NiwtMTE0MTQx
-MDY0NCwtODE4Mzk1MzU5LDE4OTg5NjM5OTIsODk5Mzk2MDg0LC
-0yMDY2NjQ2NTY4LC01NjAyMDU4NjMsMTcxODQzNTIwNCw5MzUz
-NzgwOTZdfQ==
+eyJoaXN0b3J5IjpbLTEwNjYxOTQxNDYsLTE3MDAxMzAzNjYsOD
+A2ODE3NjE0LC00NDAwODgxNSwtNzk1ODcwMjc1LDIwMDc2MDQ3
+NTYsLTE3MTY4OTMzMzIsMTQ4OTI5MTU1LDIwMjk2NzkwNCwtMT
+Y1MTQ3NzM0MCwxODA1MjQwODY3LDE4MTUzNjUyNzYsLTExNDE0
+MTA2NDQsLTgxODM5NTM1OSwxODk4OTYzOTkyLDg5OTM5NjA4NC
+wtMjA2NjY0NjU2OCwtNTYwMjA1ODYzLDE3MTg0MzUyMDQsOTM1
+Mzc4MDk2XX0=
 -->
