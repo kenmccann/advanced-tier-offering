@@ -163,7 +163,9 @@ There is  also  a section in  our documentation  dedicated to [Reactive Risk Man
  - Acknowledging/unackknowleding vulnerabilities
  - Allowing  and Blocking images
  - Assigning  custom severity labels  to selected vulnerabilities
- - Mana
+ - Managing Malware
+ - Managing Sensitive Dat
+ - Managing Image Assurance Policiy Violations
 
 ### How the "Example" Image Assurance Policy effects the compliance of scan results
 
@@ -207,11 +209,11 @@ Build pipelines can be configured to use the scanner for a customer and scan ima
 5. Image Scan Webhook use to send scan results and integrate with Postee to provide image build notifications.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NDIzMjQyLDE0ODkyOTE1NSwyMDI5Nj
-c5MDQsLTE2NTE0NzczNDAsMTgwNTI0MDg2NywxODE1MzY1Mjc2
-LC0xMTQxNDEwNjQ0LC04MTgzOTUzNTksMTg5ODk2Mzk5Miw4OT
-kzOTYwODQsLTIwNjY2NDY1NjgsLTU2MDIwNTg2MywxNzE4NDM1
-MjA0LDkzNTM3ODA5NiwtMTY5NzgwNTQ0NywxMDk5NjM3MDg3LC
-0xMDA3MjQ5NzgxLC0xODgxNDE2NTk4LDQ2MDU1NjU2OCwxNjYw
-OTA0NjQyXX0=
+eyJoaXN0b3J5IjpbLTE3MTY4OTMzMzIsMTQ4OTI5MTU1LDIwMj
+k2NzkwNCwtMTY1MTQ3NzM0MCwxODA1MjQwODY3LDE4MTUzNjUy
+NzYsLTExNDE0MTA2NDQsLTgxODM5NTM1OSwxODk4OTYzOTkyLD
+g5OTM5NjA4NCwtMjA2NjY0NjU2OCwtNTYwMjA1ODYzLDE3MTg0
+MzUyMDQsOTM1Mzc4MDk2LC0xNjk3ODA1NDQ3LDEwOTk2MzcwOD
+csLTEwMDcyNDk3ODEsLTE4ODE0MTY1OTgsNDYwNTU2NTY4LDE2
+NjA5MDQ2NDJdfQ==
 -->
