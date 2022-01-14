@@ -195,13 +195,14 @@ Build pipelines can be configured to use the scanner for a customer and scan ima
 4. Highlight how the image scan results are presented within Jenkins CI as part of the completed job ID and that it’s an HTML representation of the CI/CD scan step which is also present in the Images > CI/CD scans within the UI. This is  covered in the documenation site page  here
 5. Image Scan Webhook use to send scan results and integrate with Postee to provide image build notifications.
 
-### 
+### Aqua SSO  and  SAML  integration
+A  variety  of  customers who  have deployed Aquasec  into their environments
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA2ODE3NjE0LC00NDAwODgxNSwtNzk1OD
-cwMjc1LDIwMDc2MDQ3NTYsLTE3MTY4OTMzMzIsMTQ4OTI5MTU1
-LDIwMjk2NzkwNCwtMTY1MTQ3NzM0MCwxODA1MjQwODY3LDE4MT
-UzNjUyNzYsLTExNDE0MTA2NDQsLTgxODM5NTM1OSwxODk4OTYz
-OTkyLDg5OTM5NjA4NCwtMjA2NjY0NjU2OCwtNTYwMjA1ODYzLD
-E3MTg0MzUyMDQsOTM1Mzc4MDk2LC0xNjk3ODA1NDQ3LDEwOTk2
-MzcwODddfQ==
+eyJoaXN0b3J5IjpbLTEwNDMxMzUwOTMsODA2ODE3NjE0LC00ND
+AwODgxNSwtNzk1ODcwMjc1LDIwMDc2MDQ3NTYsLTE3MTY4OTMz
+MzIsMTQ4OTI5MTU1LDIwMjk2NzkwNCwtMTY1MTQ3NzM0MCwxOD
+A1MjQwODY3LDE4MTUzNjUyNzYsLTExNDE0MTA2NDQsLTgxODM5
+NTM1OSwxODk4OTYzOTkyLDg5OTM5NjA4NCwtMjA2NjY0NjU2OC
+wtNTYwMjA1ODYzLDE3MTg0MzUyMDQsOTM1Mzc4MDk2LC0xNjk3
+ODA1NDQ3XX0=
 -->
