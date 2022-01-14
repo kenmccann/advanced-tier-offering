@@ -109,6 +109,8 @@ Some customers may ask:
 
 The results containing all the hashes and details of the container, including it's digest and content hash are sent to Cybercenter [ our cloud vulnerability DB ]  for it to process and identify which files and pakages it recognises that contain vulnerabilties, then Cybercenter sends those results back for the console to process the results within the UI.* 
 
+*Most customer  facing questions  can be answered via a support ticket to support@aquasec.com* if you need an answer to something that you cannot resolve yourself or via the support portal/Knowledge Base articles.
+
 This is the high level view of what you see in the screen shot below. Our Alpine:3.4 image that's been scanned within the console.
 
 *Also highlight to the customer that they can find out about a particular image by clicking on the image name in the UI – as highlighted below with the sky blue text and navy blue comments.*
@@ -192,11 +194,11 @@ Build pipelines can be configured to use the scanner for a customer and scan ima
 5. Image Scan Webhook use to send scan results and integrate with Postee to provide image build notifications.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTE0NzczNDAsMTgwNTI0MDg2NywxOD
-E1MzY1Mjc2LC0xMTQxNDEwNjQ0LC04MTgzOTUzNTksMTg5ODk2
-Mzk5Miw4OTkzOTYwODQsLTIwNjY2NDY1NjgsLTU2MDIwNTg2My
-wxNzE4NDM1MjA0LDkzNTM3ODA5NiwtMTY5NzgwNTQ0NywxMDk5
-NjM3MDg3LC0xMDA3MjQ5NzgxLC0xODgxNDE2NTk4LDQ2MDU1Nj
-U2OCwxNjYwOTA0NjQyLC01MzA1NTYyMzIsLTE1NjI4NDQxMSwt
-MTI4NzE2NjQ1NV19
+eyJoaXN0b3J5IjpbLTIwODAzNzIxOTYsLTE2NTE0NzczNDAsMT
+gwNTI0MDg2NywxODE1MzY1Mjc2LC0xMTQxNDEwNjQ0LC04MTgz
+OTUzNTksMTg5ODk2Mzk5Miw4OTkzOTYwODQsLTIwNjY2NDY1Nj
+gsLTU2MDIwNTg2MywxNzE4NDM1MjA0LDkzNTM3ODA5NiwtMTY5
+NzgwNTQ0NywxMDk5NjM3MDg3LC0xMDA3MjQ5NzgxLC0xODgxND
+E2NTk4LDQ2MDU1NjU2OCwxNjYwOTA0NjQyLC01MzA1NTYyMzIs
+LTE1NjI4NDQxMV19
 -->
