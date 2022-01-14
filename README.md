@@ -152,9 +152,9 @@ It's useful to go through this with the  customer, referring  each of the vulner
 
 ###  How to approach remediation of vulnerabilities
 
-Your customer  might  want  to [manage and   acknowledge](https://docs.aquasec.com/docs/apply-and-manage-security-issue-acknowledgments)   the vulnerabiltiies which they  have indentified to  work  through.  The  documetnation  link covers  several  sets  of  features  which  can  make  the task  of handling vulnerabilties within  Aqua
+Your customer  might  want  to [manage and   acknowledge](https://docs.aquasec.com/docs/apply-and-manage-security-issue-acknowledgments)   the vulnerabiltiies which they  have indentified to  work  through.  The  documetnation  link covers  several  sets  of  features  which  can  make  the task  of handling vulnerabilties within  Aquasec easier to  handle. 
  
-There is  also  a section in  our documentation  dedicated to [Reactive Risk Management](https://docs.aquasec.com/docs/reactive-risk-management) 
+There is  also  a section in  our documentation  dedicated to [Reactive Risk Management](https://docs.aquasec.com/docs/reactive-risk-management) -   this covers our Risk Based Insights, Managing  Vulnerabilities,  Eliminating   vulnerabilties by upda
 
 ### How the "Example" Image Assurance Policy effects the compliance of scan results
 
@@ -198,7 +198,7 @@ Build pipelines can be configured to use the scanner for a customer and scan ima
 5. Image Scan Webhook use to send scan results and integrate with Postee to provide image build notifications.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjMyMTg1NjUsMTQ4OTI5MTU1LDIwMj
+eyJoaXN0b3J5IjpbLTEwMzg3OTI1ODUsMTQ4OTI5MTU1LDIwMj
 k2NzkwNCwtMTY1MTQ3NzM0MCwxODA1MjQwODY3LDE4MTUzNjUy
 NzYsLTExNDE0MTA2NDQsLTgxODM5NTM1OSwxODk4OTYzOTkyLD
 g5OTM5NjA4NCwtMjA2NjY0NjU2OCwtNTYwMjA1ODYzLDE3MTg0
