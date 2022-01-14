@@ -185,7 +185,7 @@ This could mean that an organisation might have a variety of different CI tools,
 
 Speaking with your customer can give you an understanding of their environment and application landscape before embarking on this task as part of your ongoing workshop.
 
-Build pipelines can be configured to use the scanner for a customer and scan images either using the proprietary Aqua CI tool scanner plug-in or via pipeline step by invoking docker.
+Build pipelines can be configured to use the scanner for a customer and scan images either using the proprietary Aqua CI tool scanner plug-in or via pipeline step by invoking docker or another supported  container runtime.
 
 1. Show the customer how easy it is to scan an image, by creating a Jenkins pipeline to use Aqua scanner Plug-in and parametrise the _Image Name_ as a variable so that any image can be scanned using a Jenkins job by providing build parameters.
 2. Demonstrate this pipeline working and explain how this can be used by others in the organisation indirectly without needing to access the Aqua console. I.e., a developer or member of a DevOps team can scan images, as part of the first step to making images compliant.
@@ -193,12 +193,13 @@ Build pipelines can be configured to use the scanner for a customer and scan ima
 4. Highlight how the image scan results are presented within Jenkins CI as part of the completed job ID and that it’s an HTML representation of the CI/CD scan step which is also present in the Images > CI/CD scans within the UI.
 5. Image Scan Webhook use to send scan results and integrate with Postee to provide image build notifications.
 
+##
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNzYwNDc1NiwtMTcxNjg5MzMzMiwxND
-g5MjkxNTUsMjAyOTY3OTA0LC0xNjUxNDc3MzQwLDE4MDUyNDA4
-NjcsMTgxNTM2NTI3NiwtMTE0MTQxMDY0NCwtODE4Mzk1MzU5LD
-E4OTg5NjM5OTIsODk5Mzk2MDg0LC0yMDY2NjQ2NTY4LC01NjAy
-MDU4NjMsMTcxODQzNTIwNCw5MzUzNzgwOTYsLTE2OTc4MDU0ND
-csMTA5OTYzNzA4NywtMTAwNzI0OTc4MSwtMTg4MTQxNjU5OCw0
-NjA1NTY1NjhdfQ==
+eyJoaXN0b3J5IjpbLTc5NTg3MDI3NSwyMDA3NjA0NzU2LC0xNz
+E2ODkzMzMyLDE0ODkyOTE1NSwyMDI5Njc5MDQsLTE2NTE0Nzcz
+NDAsMTgwNTI0MDg2NywxODE1MzY1Mjc2LC0xMTQxNDEwNjQ0LC
+04MTgzOTUzNTksMTg5ODk2Mzk5Miw4OTkzOTYwODQsLTIwNjY2
+NDY1NjgsLTU2MDIwNTg2MywxNzE4NDM1MjA0LDkzNTM3ODA5Ni
+wtMTY5NzgwNTQ0NywxMDk5NjM3MDg3LC0xMDA3MjQ5NzgxLC0x
+ODgxNDE2NTk4XX0=
 -->
