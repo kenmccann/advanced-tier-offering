@@ -152,7 +152,7 @@ It's useful to go through this with the  customer and refer  to the vulnerabilit
 
 ###  How to approach remediation  of vulnerabilities
 
-Your customer  first  might  want  to manage  an
+Your customer  first  might  want  to manage and   acknowledge   the vulnerabiltiies
 Within  Aquasec there are two main options  for vulnerability remediation although it's not considered  to be  a *fix* but  more of a band-aid. Where  a vulnerability does  not have  a vendor fix  the  customer  can use the  vShield capability which  is explained  here
 
 ### How the "Example" Image Assurance Policy effects the compliance of scan results
@@ -197,7 +197,7 @@ Build pipelines can be configured to use the scanner for a customer and scan ima
 5. Image Scan Webhook use to send scan results and integrate with Postee to provide image build notifications.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMyOTMwOTUxLC0xNjUxNDc3MzQwLDE4MD
+eyJoaXN0b3J5IjpbMjAyOTY3OTA0LC0xNjUxNDc3MzQwLDE4MD
 UyNDA4NjcsMTgxNTM2NTI3NiwtMTE0MTQxMDY0NCwtODE4Mzk1
 MzU5LDE4OTg5NjM5OTIsODk5Mzk2MDg0LC0yMDY2NjQ2NTY4LC
 01NjAyMDU4NjMsMTcxODQzNTIwNCw5MzUzNzgwOTYsLTE2OTc4
