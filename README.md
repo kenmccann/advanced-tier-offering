@@ -197,13 +197,13 @@ Build pipelines can be configured to use the scanner for a customer and scan ima
 
 ### Aqua SSO  and  SAML  Integration
 Aqua  Enterprise SaaS edition  can  easily be integrated  with  a  number of third  party SSO and SAML based IPD  systems. We cover the  supported IDP's  and  configuration methods in our [documentation](https://docs.aquasec.com/docs/saml-authentication-integration#configure-saml-authentication-with-an-idp)  and  you will most likely want  to discuss this with  your customer. 
-There is also  a PDF  which  explains how  to  integrate  with Active  Directory  which  
+There is also  a PDF  which  explains how  to  integrate  with Active  Directory  which  can be obtiained on request  that helps  most customers to  set  this up.
 
-Using the SSO integration  within  your customers Aquasec deployment will enable them to take  advantage of several features such as application  scopes, permission sets (as part of the   Aqua RBAC  functionality ) 
+Using the SSO integration  within  your customers Aquasec deployment will enable them to take  advantage of several features such as application  scopes, permission sets (as part of the   Aqua RBAC  functionality ) and align developer, security auditing, vulnerability managers  and administrator  groups within AD 
 
 ### SIEM and logging  Integration
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzM3MDI4MzgsLTE3MDAxMzAzNjYsOD
+eyJoaXN0b3J5IjpbLTE1NjE5NTgxMTYsLTE3MDAxMzAzNjYsOD
 A2ODE3NjE0LC00NDAwODgxNSwtNzk1ODcwMjc1LDIwMDc2MDQ3
 NTYsLTE3MTY4OTMzMzIsMTQ4OTI5MTU1LDIwMjk2NzkwNCwtMT
 Y1MTQ3NzM0MCwxODA1MjQwODY3LDE4MTUzNjUyNzYsLTExNDE0
