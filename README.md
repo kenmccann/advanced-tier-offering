@@ -158,7 +158,7 @@ The **Actions Needed**  show the customer what is needed to  remediate the issue
 
 ### New header
 
-You will probably want to show the customer the additional data tabs, such as :
+You should show the customer the additional data tabs, such as :
 
 - Vulnerabilities
 - Layers
@@ -192,11 +192,11 @@ Build pipelines can be configured to use the scanner for a customer and scan ima
 5. Image Scan Webhook use to send scan results and integrate with Postee to provide image build notifications.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNTI0MDg2NywxODE1MzY1Mjc2LC0xMT
-QxNDEwNjQ0LC04MTgzOTUzNTksMTg5ODk2Mzk5Miw4OTkzOTYw
-ODQsLTIwNjY2NDY1NjgsLTU2MDIwNTg2MywxNzE4NDM1MjA0LD
-kzNTM3ODA5NiwtMTY5NzgwNTQ0NywxMDk5NjM3MDg3LC0xMDA3
-MjQ5NzgxLC0xODgxNDE2NTk4LDQ2MDU1NjU2OCwxNjYwOTA0Nj
-QyLC01MzA1NTYyMzIsLTE1NjI4NDQxMSwtMTI4NzE2NjQ1NSwt
+eyJoaXN0b3J5IjpbLTE2NTE0NzczNDAsMTgwNTI0MDg2NywxOD
+E1MzY1Mjc2LC0xMTQxNDEwNjQ0LC04MTgzOTUzNTksMTg5ODk2
+Mzk5Miw4OTkzOTYwODQsLTIwNjY2NDY1NjgsLTU2MDIwNTg2My
+wxNzE4NDM1MjA0LDkzNTM3ODA5NiwtMTY5NzgwNTQ0NywxMDk5
+NjM3MDg3LC0xMDA3MjQ5NzgxLC0xODgxNDE2NTk4LDQ2MDU1Nj
+U2OCwxNjYwOTA0NjQyLC01MzA1NTYyMzIsLTE1NjI4NDQxMSwt
 MTI4NzE2NjQ1NV19
 -->
