@@ -196,9 +196,9 @@ Build pipelines can be configured to use the scanner for a customer and scan ima
 5. Image Scan Webhook use to send scan results and integrate with Postee to provide image build notifications.
 
 ### Aqua SSO  and  SAML  integration
-A  variety  of  customers who  have deployed Aquasec  into their environments of any scale have  integrated their  user authentication and security 
+Aqua  Enterprise SaaS edition  can  easily be integrated  with  a  number of  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NjA5NTExNyw4MDY4MTc2MTQsLTQ0MD
+eyJoaXN0b3J5IjpbLTc4NjkwMTY4MCw4MDY4MTc2MTQsLTQ0MD
 A4ODE1LC03OTU4NzAyNzUsMjAwNzYwNDc1NiwtMTcxNjg5MzMz
 MiwxNDg5MjkxNTUsMjAyOTY3OTA0LC0xNjUxNDc3MzQwLDE4MD
 UyNDA4NjcsMTgxNTM2NTI3NiwtMTE0MTQxMDY0NCwtODE4Mzk1
