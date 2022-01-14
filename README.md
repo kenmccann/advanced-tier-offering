@@ -195,7 +195,7 @@ Build pipelines can be configured to use the scanner for a customer and scan ima
 4. Highlight how the image scan results are presented within Jenkins CI as part of the completed job ID and that it’s an HTML representation of the CI/CD scan step which is also present in the Images > CI/CD scans within the UI. This is  covered in the documenation site page  here
 5. Using the Image Scan Webhook to send scan results and integrate with [Postee](https://github.com/aquasecurity/postee) to provide image build notifications. 
 
-This provides integration between Aqua and several backend systems where a customer would like their developer team(s) to receive scan results and alerts for 
+This provides integration between Aqua and several backend systems where a customer would like their developer team(s) to receive scan results and alerts for images delivered to Slack, Microsoft Teams, Email, ServiceNow & Jira. Additional webhook integrations can be added as well as rules for alerting based on specific image criti
 
 ### Aqua SSO  and  SAML  Integration
 Aqua  Enterprise SaaS edition  can  easily be integrated  with  a  number of third  party SSO and SAML based IPD  systems. We cover the  supported IDP's  and  configuration methods in our [documentation](https://docs.aquasec.com/docs/saml-authentication-integration#configure-saml-authentication-with-an-idp)  and  you will most likely want  to discuss this with  your customer to get a better understanding  of what their organisational authentication system is  and how they can work beyond having  to configure local user access from the get-go.
@@ -207,11 +207,11 @@ Using the SSO integration  within  your customers Aqua deployment will enable th
 ### SIEM and logging  Integration
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNzE1NTk3Nyw0MzY5NDMxMjcsMTU2Mj
-M5NDAwOCwtMTYzMzA1MDk0NiwtMTcwMDEzMDM2Niw4MDY4MTc2
-MTQsLTQ0MDA4ODE1LC03OTU4NzAyNzUsMjAwNzYwNDc1NiwtMT
-cxNjg5MzMzMiwxNDg5MjkxNTUsMjAyOTY3OTA0LC0xNjUxNDc3
-MzQwLDE4MDUyNDA4NjcsMTgxNTM2NTI3NiwtMTE0MTQxMDY0NC
-wtODE4Mzk1MzU5LDE4OTg5NjM5OTIsODk5Mzk2MDg0LC0yMDY2
-NjQ2NTY4XX0=
+eyJoaXN0b3J5IjpbNTczMjgxNjcxLDQzNjk0MzEyNywxNTYyMz
+k0MDA4LC0xNjMzMDUwOTQ2LC0xNzAwMTMwMzY2LDgwNjgxNzYx
+NCwtNDQwMDg4MTUsLTc5NTg3MDI3NSwyMDA3NjA0NzU2LC0xNz
+E2ODkzMzMyLDE0ODkyOTE1NSwyMDI5Njc5MDQsLTE2NTE0Nzcz
+NDAsMTgwNTI0MDg2NywxODE1MzY1Mjc2LC0xMTQxNDEwNjQ0LC
+04MTgzOTUzNTksMTg5ODk2Mzk5Miw4OTkzOTYwODQsLTIwNjY2
+NDY1NjhdfQ==
 -->
