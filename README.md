@@ -150,7 +150,7 @@ You can see more  about this in this [link](https://docs.aquasec.com/docs/vulner
 
 It's useful to go through this with the  customer and refer  to the vulnerability details that are highlighed which is related to the package so the customer  can gain more valuable insights of the CVE's found and how they might want to think about fixing those in the images within their registry as well as learning about the Aqua console and scanning capabilties.
 
---
+###  How to approach remediation  of vulnerabilities
 
 ### How the "Example" Image Assurance Policy effects the compliance of scan results
 
@@ -194,11 +194,11 @@ Build pipelines can be configured to use the scanner for a customer and scan ima
 5. Image Scan Webhook use to send scan results and integrate with Postee to provide image build notifications.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODAzNzIxOTYsLTE2NTE0NzczNDAsMT
-gwNTI0MDg2NywxODE1MzY1Mjc2LC0xMTQxNDEwNjQ0LC04MTgz
-OTUzNTksMTg5ODk2Mzk5Miw4OTkzOTYwODQsLTIwNjY2NDY1Nj
-gsLTU2MDIwNTg2MywxNzE4NDM1MjA0LDkzNTM3ODA5NiwtMTY5
-NzgwNTQ0NywxMDk5NjM3MDg3LC0xMDA3MjQ5NzgxLC0xODgxND
-E2NTk4LDQ2MDU1NjU2OCwxNjYwOTA0NjQyLC01MzA1NTYyMzIs
-LTE1NjI4NDQxMV19
+eyJoaXN0b3J5IjpbOTQwODEwMzQ4LC0xNjUxNDc3MzQwLDE4MD
+UyNDA4NjcsMTgxNTM2NTI3NiwtMTE0MTQxMDY0NCwtODE4Mzk1
+MzU5LDE4OTg5NjM5OTIsODk5Mzk2MDg0LC0yMDY2NjQ2NTY4LC
+01NjAyMDU4NjMsMTcxODQzNTIwNCw5MzUzNzgwOTYsLTE2OTc4
+MDU0NDcsMTA5OTYzNzA4NywtMTAwNzI0OTc4MSwtMTg4MTQxNj
+U5OCw0NjA1NTY1NjgsMTY2MDkwNDY0MiwtNTMwNTU2MjMyLC0x
+NTYyODQ0MTFdfQ==
 -->
