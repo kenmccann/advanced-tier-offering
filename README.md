@@ -152,10 +152,8 @@ It's useful to go through this with the  customer, referring  each of the vulner
 
 ###  How to approach remediation of vulnerabilities
 
-Your customer  might  want  to [manage and   acknowledge](https://docs.aquasec.com/docs/apply-and-manage-security-issue-acknowledgments)   the vulnerabiltiies which they  have indentified to  work  through.
-
-Within  Aquasec there are two main options  for vulnerability remediation although it's not considered  to be  a *fix* but  more of a band-aid. Where  a vulnerability does  not have  a vendor fix  the  customer  can use the  vShield capability which  is explained  here   
-
+Your customer  might  want  to [manage and   acknowledge](https://docs.aquasec.com/docs/apply-and-manage-security-issue-acknowledgments)   the vulnerabiltiies which they  have indentified to  work  through.  The  documetnation  link covers  several  sets  of  features  which  can  make  the task  of handling vulnerabilties within  Aqua
+ 
 There is  also  a section in  our documentation  dedicated to [Reactive Risk Management](https://docs.aquasec.com/docs/reactive-risk-management) 
 
 ### How the "Example" Image Assurance Policy effects the compliance of scan results
@@ -200,11 +198,11 @@ Build pipelines can be configured to use the scanner for a customer and scan ima
 5. Image Scan Webhook use to send scan results and integrate with Postee to provide image build notifications.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMzE1MzcxMiwxNDg5MjkxNTUsMjAyOT
-Y3OTA0LC0xNjUxNDc3MzQwLDE4MDUyNDA4NjcsMTgxNTM2NTI3
-NiwtMTE0MTQxMDY0NCwtODE4Mzk1MzU5LDE4OTg5NjM5OTIsOD
-k5Mzk2MDg0LC0yMDY2NjQ2NTY4LC01NjAyMDU4NjMsMTcxODQz
-NTIwNCw5MzUzNzgwOTYsLTE2OTc4MDU0NDcsMTA5OTYzNzA4Ny
-wtMTAwNzI0OTc4MSwtMTg4MTQxNjU5OCw0NjA1NTY1NjgsMTY2
-MDkwNDY0Ml19
+eyJoaXN0b3J5IjpbLTEwNjMyMTg1NjUsMTQ4OTI5MTU1LDIwMj
+k2NzkwNCwtMTY1MTQ3NzM0MCwxODA1MjQwODY3LDE4MTUzNjUy
+NzYsLTExNDE0MTA2NDQsLTgxODM5NTM1OSwxODk4OTYzOTkyLD
+g5OTM5NjA4NCwtMjA2NjY0NjU2OCwtNTYwMjA1ODYzLDE3MTg0
+MzUyMDQsOTM1Mzc4MDk2LC0xNjk3ODA1NDQ3LDEwOTk2MzcwOD
+csLTEwMDcyNDk3ODEsLTE4ODE0MTY1OTgsNDYwNTU2NTY4LDE2
+NjA5MDQ2NDJdfQ==
 -->
