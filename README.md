@@ -171,6 +171,7 @@ There is  also  a section in  our documentation  dedicated to [Reactive Risk Man
 
 ![Applied custom image assurance policy](https://github.com/kenmccann/advanced-tier-offering/blob/master/image/alpine-ex-ia-pol-scan.png?raw=true)
 Here we can see our  custom Image Assurance  policy applied to our alpine:3.4 image and it's quite different to the results from the default policy. You can see that the image is still compliant  but has failed some  of the  image assurance  controls against Vulnerability  Severity  and  Super User control.
+
 The **Actions Needed**  show the customer what is needed to  remediate the issues are shown. 
 
 ### New header
@@ -209,11 +210,11 @@ Build pipelines can be configured to use the scanner for a customer and scan ima
 5. Image Scan Webhook use to send scan results and integrate with Postee to provide image build notifications.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTY4OTMzMzIsMTQ4OTI5MTU1LDIwMj
-k2NzkwNCwtMTY1MTQ3NzM0MCwxODA1MjQwODY3LDE4MTUzNjUy
-NzYsLTExNDE0MTA2NDQsLTgxODM5NTM1OSwxODk4OTYzOTkyLD
-g5OTM5NjA4NCwtMjA2NjY0NjU2OCwtNTYwMjA1ODYzLDE3MTg0
-MzUyMDQsOTM1Mzc4MDk2LC0xNjk3ODA1NDQ3LDEwOTk2MzcwOD
-csLTEwMDcyNDk3ODEsLTE4ODE0MTY1OTgsNDYwNTU2NTY4LDE2
-NjA5MDQ2NDJdfQ==
+eyJoaXN0b3J5IjpbMjExNjcxMjc5NCwtMTcxNjg5MzMzMiwxND
+g5MjkxNTUsMjAyOTY3OTA0LC0xNjUxNDc3MzQwLDE4MDUyNDA4
+NjcsMTgxNTM2NTI3NiwtMTE0MTQxMDY0NCwtODE4Mzk1MzU5LD
+E4OTg5NjM5OTIsODk5Mzk2MDg0LC0yMDY2NjQ2NTY4LC01NjAy
+MDU4NjMsMTcxODQzNTIwNCw5MzUzNzgwOTYsLTE2OTc4MDU0ND
+csMTA5OTYzNzA4NywtMTAwNzI0OTc4MSwtMTg4MTQxNjU5OCw0
+NjA1NTY1NjhdfQ==
 -->
