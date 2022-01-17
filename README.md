@@ -209,11 +209,11 @@ It also provides capbility to combine the use of application  scopes & permissio
 ### SIEM and logging  Integration
 As we know, customers love looking at data relating their security and workloads. 
 
-Audit data is created from events and displayed in the UI when using the Aqua UI and API, this data can be sent to a variety of different systems by Aqua.
+Audit data is created from events and displayed in the UI when using the Aqua UI and API.
 
-You can read more about the information we provide about auditing [here](https://docs.aquasec.com/docs/view-audit-events)
+You can read more about the information we provide about auditing [here](https://docs.aquasec.com/docs/view-audit-events).
 
-Aqua provides numerous options for customers to send the  audit event data & scan logs from the console to third party logging systems such as Amazon Cloud Watch, Elasticsearch, Syslog and Webhooks, and SIEM solutions such as Splunk, QRadar, Sumo Logic and other popular tools.
+Aqua provides numerous  options for customers who wish to send their audit event data & scan logs from the console to third party logging systems such as Amazon Cloud Watch, Elasticsearch, Syslog and Webhooks, and SIEM solutions such as Splunk, QRadar, Sumo Logic and other popular tools.
 
 It is likely that your customer will want to discuss this with you. Ask them whether their Security Operations Center (SOC) are using a SIEM platform such as Splunk for monitoring access and security events, generated from infrastructure and workload access.
 
@@ -223,11 +223,11 @@ We have a best practices page within our documentation regarding SIEM too use th
 
 Once you have a clearer idea of the customers logging requirements and use-case, you try and assist the customer with task of integrating this in their environment.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTY3MTA5MjQsLTE3NDY0MTA4MTMsLT
-E0MzA4Mjk0MDMsMTUzOTI2NzQ3OCwxNjIyMjA5Njk2LC0xNTM2
-MTc4OTg5LDE1MzYwOTg1MzAsLTY3OTU5NTg1MSw0MzY5NDMxMj
-csMTU2MjM5NDAwOCwtMTYzMzA1MDk0NiwtMTcwMDEzMDM2Niw4
-MDY4MTc2MTQsLTQ0MDA4ODE1LC03OTU4NzAyNzUsMjAwNzYwND
-c1NiwtMTcxNjg5MzMzMiwxNDg5MjkxNTUsMjAyOTY3OTA0LC0x
-NjUxNDc3MzQwXX0=
+eyJoaXN0b3J5IjpbMzE5OTQzMjY4LC0xNzQ2NDEwODEzLC0xND
+MwODI5NDAzLDE1MzkyNjc0NzgsMTYyMjIwOTY5NiwtMTUzNjE3
+ODk4OSwxNTM2MDk4NTMwLC02Nzk1OTU4NTEsNDM2OTQzMTI3LD
+E1NjIzOTQwMDgsLTE2MzMwNTA5NDYsLTE3MDAxMzAzNjYsODA2
+ODE3NjE0LC00NDAwODgxNSwtNzk1ODcwMjc1LDIwMDc2MDQ3NT
+YsLTE3MTY4OTMzMzIsMTQ4OTI5MTU1LDIwMjk2NzkwNCwtMTY1
+MTQ3NzM0MF19
 -->
