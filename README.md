@@ -207,7 +207,7 @@ Using the SSO integration  within  your customers Aqua deployment will enable th
 ### SIEM and logging  Integration
 As we know, customers love looking data relating their security and workloads. 
 
-Aqua provides numerous options for customers to send the  audit event data from the console to logging systems like Elasticsearch, and SIEM solutions such as Splunk, QRadar a Syslog and other popular tools.
+Aqua provides numerous options for customers to send the  audit event data from the console to logging systems such as Amazon Cloud Watch, Elasticsearch, Syslog and Webhooks, and SIEM solutions such as Splunk, QRadar a  and other popular tools.
 Audit data is generated for events that are created when using the Aqua UI and API - you should read the information we proviude about auditing [here](https://docs.aquasec.com/docs/view-audit-events)
 
 It is likely that your customer will want to discuss this with you, and ask them whether their Security Operations Center (SOC) are using a SIEM platform such as splunk for monitoring of access and security events which are generated from infrastructure and workload access.
@@ -218,11 +218,11 @@ We have a best practices page within our documentation regarding SIEM too use th
 
 Once you have a clearer idea of the customers logging requirements and use-case, you maybe expected to assist the customer
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTQ5NzEyNjUsMTUzOTI2NzQ3OCwxNj
-IyMjA5Njk2LC0xNTM2MTc4OTg5LDE1MzYwOTg1MzAsLTY3OTU5
-NTg1MSw0MzY5NDMxMjcsMTU2MjM5NDAwOCwtMTYzMzA1MDk0Ni
-wtMTcwMDEzMDM2Niw4MDY4MTc2MTQsLTQ0MDA4ODE1LC03OTU4
-NzAyNzUsMjAwNzYwNDc1NiwtMTcxNjg5MzMzMiwxNDg5MjkxNT
-UsMjAyOTY3OTA0LC0xNjUxNDc3MzQwLDE4MDUyNDA4NjcsMTgx
-NTM2NTI3Nl19
+eyJoaXN0b3J5IjpbNjMzMDIwNzMyLDE1MzkyNjc0NzgsMTYyMj
+IwOTY5NiwtMTUzNjE3ODk4OSwxNTM2MDk4NTMwLC02Nzk1OTU4
+NTEsNDM2OTQzMTI3LDE1NjIzOTQwMDgsLTE2MzMwNTA5NDYsLT
+E3MDAxMzAzNjYsODA2ODE3NjE0LC00NDAwODgxNSwtNzk1ODcw
+Mjc1LDIwMDc2MDQ3NTYsLTE3MTY4OTMzMzIsMTQ4OTI5MTU1LD
+IwMjk2NzkwNCwtMTY1MTQ3NzM0MCwxODA1MjQwODY3LDE4MTUz
+NjUyNzZdfQ==
 -->
