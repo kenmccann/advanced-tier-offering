@@ -205,15 +205,15 @@ There is also  a PDF  which  explains how  to  integrate  with Active  Directory
 Using the SSO integration  within  your customers Aqua deployment will enable them to take  advantage of several features such as application  scopes, permission sets (as part of the   [Aqua RBAC](https://docs.aquasec.com/docs/rbac-overview)  functionality ) and align developer, security auditing, vulnerability managers  and administrator  groups within AD, giving an additional layer of granularity and access to the images, vulnerabilties and applications  which matter most to them. 
 
 ### SIEM and logging  Integration
-As we know, customers love looking data which is related their security and workloads. Aqua provides numerous options for customers to send the Aqua audit event data from the console to logging and SIEM solutions. 
+As we know, customers love looking data which is related their security and workloads. Aqua provides numerous options for customers to send the Aqua audit event data from the console to logging and SIEM solutions such as Splunk, QRadar 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MjY3NDc5MywxNTM2MDk4NTMwLC02Nz
-k1OTU4NTEsNDM2OTQzMTI3LDE1NjIzOTQwMDgsLTE2MzMwNTA5
-NDYsLTE3MDAxMzAzNjYsODA2ODE3NjE0LC00NDAwODgxNSwtNz
-k1ODcwMjc1LDIwMDc2MDQ3NTYsLTE3MTY4OTMzMzIsMTQ4OTI5
-MTU1LDIwMjk2NzkwNCwtMTY1MTQ3NzM0MCwxODA1MjQwODY3LD
-E4MTUzNjUyNzYsLTExNDE0MTA2NDQsLTgxODM5NTM1OSwxODk4
-OTYzOTkyXX0=
+eyJoaXN0b3J5IjpbLTE0NDc5NTE0MTQsMTUzNjA5ODUzMCwtNj
+c5NTk1ODUxLDQzNjk0MzEyNywxNTYyMzk0MDA4LC0xNjMzMDUw
+OTQ2LC0xNzAwMTMwMzY2LDgwNjgxNzYxNCwtNDQwMDg4MTUsLT
+c5NTg3MDI3NSwyMDA3NjA0NzU2LC0xNzE2ODkzMzMyLDE0ODky
+OTE1NSwyMDI5Njc5MDQsLTE2NTE0NzczNDAsMTgwNTI0MDg2Ny
+wxODE1MzY1Mjc2LC0xMTQxNDEwNjQ0LC04MTgzOTUzNTksMTg5
+ODk2Mzk5Ml19
 -->
