@@ -215,7 +215,9 @@ You can read more about the information we provide about auditing [here](https:/
 
 Aqua provides numerous options for customers who wish to send their audit event data & scan logs from the console to third party logging systems such as Amazon Cloud Watch, Elasticsearch, Syslog and Webhooks, and SIEM solutions such as Splunk, QRadar, Sumo Logic and other popular tools.
 
-It is likely that your customer will want to discuss this with you. Ask them whether their Security Operations Center (SOC) are using a SIEM platform such as Splunk for monitoring access and security events, generated from infrastructure and workload access.
+It is likely that your customer will want to discuss SIEM and/or logging possibilies with you from within their Aqua SaaS console deployment.
+  
+Ask them whether their Security Operations Center (SOC) are using a SIEM platform such as Splunk for monitoring access and security events, generated from infrastructure and workload access.
 
 Our list of supported integrations for logging are provided as well as the list of supported SIEM tools which Aqua supports  [here](https://docs.aquasec.com/docs/external-log-collector)  you can discuss these options with the customer.
 
@@ -223,11 +225,11 @@ We have a best practices page within our documentation regarding SIEM too use th
 
 Once you have a clearer idea of the customers logging requirements and use-case, you try and assist the customer with task of integrating this in their environment.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIwNzAyNTUwLC0xNzQ2NDEwODEzLC0xND
-MwODI5NDAzLDE1MzkyNjc0NzgsMTYyMjIwOTY5NiwtMTUzNjE3
-ODk4OSwxNTM2MDk4NTMwLC02Nzk1OTU4NTEsNDM2OTQzMTI3LD
-E1NjIzOTQwMDgsLTE2MzMwNTA5NDYsLTE3MDAxMzAzNjYsODA2
-ODE3NjE0LC00NDAwODgxNSwtNzk1ODcwMjc1LDIwMDc2MDQ3NT
-YsLTE3MTY4OTMzMzIsMTQ4OTI5MTU1LDIwMjk2NzkwNCwtMTY1
-MTQ3NzM0MF19
+eyJoaXN0b3J5IjpbMTk3NTkyMTY0NywtMTc0NjQxMDgxMywtMT
+QzMDgyOTQwMywxNTM5MjY3NDc4LDE2MjIyMDk2OTYsLTE1MzYx
+Nzg5ODksMTUzNjA5ODUzMCwtNjc5NTk1ODUxLDQzNjk0MzEyNy
+wxNTYyMzk0MDA4LC0xNjMzMDUwOTQ2LC0xNzAwMTMwMzY2LDgw
+NjgxNzYxNCwtNDQwMDg4MTUsLTc5NTg3MDI3NSwyMDA3NjA0Nz
+U2LC0xNzE2ODkzMzMyLDE0ODkyOTE1NSwyMDI5Njc5MDQsLTE2
+NTE0NzczNDBdfQ==
 -->
