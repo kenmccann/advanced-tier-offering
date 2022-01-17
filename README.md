@@ -207,8 +207,9 @@ Using the SSO integration  within  your customers Aqua deployment will enable th
 ### SIEM and logging  Integration
 As we know, customers love looking data relating their security and workloads. 
 
-Aqua provides numerous options for customers to send the  audit event data from the console to logging systems such as Amazon Cloud Watch, Elasticsearch, Syslog and Webhooks, and SIEM solutions such as Splunk, QRadar a  and other popular tools.
 Audit data is generated for events that are created when using the Aqua UI and API - you should read the information we proviude about auditing [here](https://docs.aquasec.com/docs/view-audit-events)
+
+Aqua provides numerous options for customers to send the  audit event data & scan logs from the console to third party logging systems such as Amazon Cloud Watch, Elasticsearch, Syslog and Webhooks, and SIEM solutions such as Splunk, QRadar a  and other popular tools.
 
 It is likely that your customer will want to discuss this with you, and ask them whether their Security Operations Center (SOC) are using a SIEM platform such as splunk for monitoring of access and security events which are generated from infrastructure and workload access.
 
@@ -218,7 +219,7 @@ We have a best practices page within our documentation regarding SIEM too use th
 
 Once you have a clearer idea of the customers logging requirements and use-case, you maybe expected to assist the customer
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMzMDIwNzMyLDE1MzkyNjc0NzgsMTYyMj
+eyJoaXN0b3J5IjpbMzY2NTkzOTE5LDE1MzkyNjc0NzgsMTYyMj
 IwOTY5NiwtMTUzNjE3ODk4OSwxNTM2MDk4NTMwLC02Nzk1OTU4
 NTEsNDM2OTQzMTI3LDE1NjIzOTQwMDgsLTE2MzMwNTA5NDYsLT
 E3MDAxMzAzNjYsODA2ODE3NjE0LC00NDAwODgxNSwtNzk1ODcw
