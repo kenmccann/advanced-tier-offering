@@ -214,13 +214,13 @@ Our list of supported integrations for logging are provided here as well as the 
 
 We have a best practices page within our documentation regarding SIEM too use that you can read [here](https://docs.aquasec.com/docs/security-best-practices-integrations#use-a-siem-for-container-logs-for-operational-metrics)
 
-Once you have a clea
+Once you have a clearer idea of the customers logging requirements and use-case, you maybe expected to assist the customer
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjYwMjM1OTEsMTUzOTI2NzQ3OCwxNj
-IyMjA5Njk2LC0xNTM2MTc4OTg5LDE1MzYwOTg1MzAsLTY3OTU5
-NTg1MSw0MzY5NDMxMjcsMTU2MjM5NDAwOCwtMTYzMzA1MDk0Ni
-wtMTcwMDEzMDM2Niw4MDY4MTc2MTQsLTQ0MDA4ODE1LC03OTU4
-NzAyNzUsMjAwNzYwNDc1NiwtMTcxNjg5MzMzMiwxNDg5MjkxNT
-UsMjAyOTY3OTA0LC0xNjUxNDc3MzQwLDE4MDUyNDA4NjcsMTgx
-NTM2NTI3Nl19
+eyJoaXN0b3J5IjpbMTg3NDA3NTgyNiwxNTM5MjY3NDc4LDE2Mj
+IyMDk2OTYsLTE1MzYxNzg5ODksMTUzNjA5ODUzMCwtNjc5NTk1
+ODUxLDQzNjk0MzEyNywxNTYyMzk0MDA4LC0xNjMzMDUwOTQ2LC
+0xNzAwMTMwMzY2LDgwNjgxNzYxNCwtNDQwMDg4MTUsLTc5NTg3
+MDI3NSwyMDA3NjA0NzU2LC0xNzE2ODkzMzMyLDE0ODkyOTE1NS
+wyMDI5Njc5MDQsLTE2NTE0NzczNDAsMTgwNTI0MDg2NywxODE1
+MzY1Mjc2XX0=
 -->
