@@ -205,15 +205,17 @@ There is also  a PDF  which  explains how  to  integrate  with Active  Directory
 Using the SSO integration  within  your customers Aqua deployment will enable them to take  advantage of several features such as application  scopes, permission sets (as part of the   [Aqua RBAC](https://docs.aquasec.com/docs/rbac-overview)  functionality ) and align developer, security auditing, vulnerability managers  and administrator  groups within AD, giving an additional layer of granularity and access to the images, vulnerabilties and applications  which matter most to them. 
 
 ### SIEM and logging  Integration
-As we know, customers love looking data which is related their security and workloads. Aqua provides numerous options for customers to send the Aqua audit event data from the console to logging and SIEM solutions such as Splunk, QRadar 
+As we know, customers love looking data which is related their security and workloads. Aqua provides numerous options for customers to send the Aqua audit event data from the console to logging and SIEM solutions such as Splunk, QRadar and logging systems like Elasticsearch, Syslog and other popular tools.
+
+You will likely want to discuss this with our customer and ask whether their Security Operations Center (SOC) 
 
 We have a best practices page within our documentation regarding SIEM too use that you can read [here](https://docs.aquasec.com/docs/security-best-practices-integrations#use-a-siem-for-container-logs-for-operational-metrics)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzYxNzg5ODksMTUzNjA5ODUzMCwtNj
-c5NTk1ODUxLDQzNjk0MzEyNywxNTYyMzk0MDA4LC0xNjMzMDUw
-OTQ2LC0xNzAwMTMwMzY2LDgwNjgxNzYxNCwtNDQwMDg4MTUsLT
-c5NTg3MDI3NSwyMDA3NjA0NzU2LC0xNzE2ODkzMzMyLDE0ODky
-OTE1NSwyMDI5Njc5MDQsLTE2NTE0NzczNDAsMTgwNTI0MDg2Ny
-wxODE1MzY1Mjc2LC0xMTQxNDEwNjQ0LC04MTgzOTUzNTksMTg5
-ODk2Mzk5Ml19
+eyJoaXN0b3J5IjpbLTQ3NjA5NzY2NSwtMTUzNjE3ODk4OSwxNT
+M2MDk4NTMwLC02Nzk1OTU4NTEsNDM2OTQzMTI3LDE1NjIzOTQw
+MDgsLTE2MzMwNTA5NDYsLTE3MDAxMzAzNjYsODA2ODE3NjE0LC
+00NDAwODgxNSwtNzk1ODcwMjc1LDIwMDc2MDQ3NTYsLTE3MTY4
+OTMzMzIsMTQ4OTI5MTU1LDIwMjk2NzkwNCwtMTY1MTQ3NzM0MC
+wxODA1MjQwODY3LDE4MTUzNjUyNzYsLTExNDE0MTA2NDQsLTgx
+ODM5NTM1OV19
 -->
