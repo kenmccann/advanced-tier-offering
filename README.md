@@ -213,17 +213,17 @@ Aqua provides numerous options for customers to send the  audit event data & sca
 
 It is likely that your customer will want to discuss this with you. Ask them whether their Security Operations Center (SOC) are using a SIEM platform such as Splunk for monitoring access and security events, generated from infrastructure and workload access.
 
-Our list of supported integrations for logging are provided as well as the list of supported SIEM tools which Aqua provides a hook into [here](https://docs.aquasec.com/docs/external-log-collector)  you can discuss these options with the customer
+Our list of supported integrations for logging are provided as well as the list of supported SIEM tools which Aqua supports  [here](https://docs.aquasec.com/docs/external-log-collector)  you can discuss these options with the customer.
 
-We have a best practices page within our documentation regarding SIEM too use that you can read [here](https://docs.aquasec.com/docs/security-best-practices-integrations#use-a-siem-for-container-logs-for-operational-metrics)
+We have a best practices page within our documentation regarding SIEM too use that you can read [here].(https://docs.aquasec.com/docs/security-best-practices-integrations#use-a-siem-for-container-logs-for-operational-metrics)
 
-Once you have a clearer idea of the customers logging requirements and use-case, you try and assist the customer with task of integrating thi
+Once you have a clearer idea of the customers logging requirements and use-case, you try and assist the customer with task of integrating this in their environment.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MDA5MDgsMTUzOTI2NzQ3OCwxNjIyMj
-A5Njk2LC0xNTM2MTc4OTg5LDE1MzYwOTg1MzAsLTY3OTU5NTg1
-MSw0MzY5NDMxMjcsMTU2MjM5NDAwOCwtMTYzMzA1MDk0NiwtMT
-cwMDEzMDM2Niw4MDY4MTc2MTQsLTQ0MDA4ODE1LC03OTU4NzAy
-NzUsMjAwNzYwNDc1NiwtMTcxNjg5MzMzMiwxNDg5MjkxNTUsMj
-AyOTY3OTA0LC0xNjUxNDc3MzQwLDE4MDUyNDA4NjcsMTgxNTM2
-NTI3Nl19
+eyJoaXN0b3J5IjpbLTE0MzA4Mjk0MDMsMTUzOTI2NzQ3OCwxNj
+IyMjA5Njk2LC0xNTM2MTc4OTg5LDE1MzYwOTg1MzAsLTY3OTU5
+NTg1MSw0MzY5NDMxMjcsMTU2MjM5NDAwOCwtMTYzMzA1MDk0Ni
+wtMTcwMDEzMDM2Niw4MDY4MTc2MTQsLTQ0MDA4ODE1LC03OTU4
+NzAyNzUsMjAwNzYwNDc1NiwtMTcxNjg5MzMzMiwxNDg5MjkxNT
+UsMjAyOTY3OTA0LC0xNjUxNDc3MzQwLDE4MDUyNDA4NjcsMTgx
+NTM2NTI3Nl19
 -->
