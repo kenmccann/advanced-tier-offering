@@ -165,7 +165,7 @@ There is  also  a section in  our documentation  dedicated to [Reactive Risk Man
  - Assigning  custom severity labels  to selected vulnerabilities
  - Managing Malware
  - Managing Sensitive Data
- - Managing Image Assurance Policiy Violations
+ - Managing Image Assurance Policy Violations
 
 ### How the "Example" Image Assurance Policy effects the compliance of scan results
 
@@ -225,11 +225,11 @@ We have a best practices page within our documentation regarding SIEM too use th
 
 Once you have a clearer idea of the customers logging requirements and use-case, you try and assist the customer with task of integrating this in their environment.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NTkyMTY0NywtMTc0NjQxMDgxMywtMT
-QzMDgyOTQwMywxNTM5MjY3NDc4LDE2MjIyMDk2OTYsLTE1MzYx
-Nzg5ODksMTUzNjA5ODUzMCwtNjc5NTk1ODUxLDQzNjk0MzEyNy
-wxNTYyMzk0MDA4LC0xNjMzMDUwOTQ2LC0xNzAwMTMwMzY2LDgw
-NjgxNzYxNCwtNDQwMDg4MTUsLTc5NTg3MDI3NSwyMDA3NjA0Nz
-U2LC0xNzE2ODkzMzMyLDE0ODkyOTE1NSwyMDI5Njc5MDQsLTE2
-NTE0NzczNDBdfQ==
+eyJoaXN0b3J5IjpbMzUzNDg2MzEyLC0xNzQ2NDEwODEzLC0xND
+MwODI5NDAzLDE1MzkyNjc0NzgsMTYyMjIwOTY5NiwtMTUzNjE3
+ODk4OSwxNTM2MDk4NTMwLC02Nzk1OTU4NTEsNDM2OTQzMTI3LD
+E1NjIzOTQwMDgsLTE2MzMwNTA5NDYsLTE3MDAxMzAzNjYsODA2
+ODE3NjE0LC00NDAwODgxNSwtNzk1ODcwMjc1LDIwMDc2MDQ3NT
+YsLTE3MTY4OTMzMzIsMTQ4OTI5MTU1LDIwMjk2NzkwNCwtMTY1
+MTQ3NzM0MF19
 -->
