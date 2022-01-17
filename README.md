@@ -198,9 +198,10 @@ Build pipelines can be configured to use the scanner for a customer and scan ima
 This provides integration between Aqua and several backend systems where a customer would like their developer team(s) to receive scan results and alerts for images delivered to Slack, Microsoft Teams, Email, ServiceNow & Jira. Additional webhook integrations can be added as well as rules for alerting based on specific image criticality/severity etc.
 
 ### Aqua SSO  and  SAML  Integration
-Aqua  Enterprise SaaS edition  can  easily be integrated  with  a  number of third  party SSO and SAML based IPD  systems. We cover the  supported IDP's  and  configuration methods in our [documentation](https://docs.aquasec.com/docs/saml-authentication-integration#configure-saml-authentication-with-an-idp)  and  you will most likely want  to discuss this with  your customer to get a better understanding  of what their organisational authentication system is  and how they can work beyond having  to configure local user access from the get-go.
+Aqua  Enterprise SaaS edition  can  easily be integrated  with  a  number of third  party SSO and SAML based IPD  systems. 
+We cover the  supported IDP's  and  configuration methods in our [documentation](https://docs.aquasec.com/docs/saml-authentication-integration#configure-saml-authentication-with-an-idp)  and  you will most likely want  to discuss this with  your customer to get a better understanding  of what their organisational authentication system is  and how they can work beyond having  to configure local user access from the get-go.
 
-There is also  a PDF  which  explains how  to  integrate  with Active  Directory  which  can be obtiained on request  that helps  most customers to  set  this up.
+There is also  a PDF  titled "Aqua "which  explains how  to  integrate  with Active  Directory  which  can be obtiained on request  that helps  most customers to  set  this up.
 
 Using the SSO integration  within  your customers Aqua deployment will enable them to take  advantage of several features such as application  scopes, permission sets (as part of the   [Aqua RBAC](https://docs.aquasec.com/docs/rbac-overview)  functionality ) and align developer, security auditing, vulnerability managers  and administrator  groups within AD, giving an additional layer of granularity and access to the images, vulnerabilties and applications  which matter most to them. 
 
@@ -219,11 +220,11 @@ We have a best practices page within our documentation regarding SIEM too use th
 
 Once you have a clearer idea of the customers logging requirements and use-case, you try and assist the customer with task of integrating this in their environment.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzA4Mjk0MDMsMTUzOTI2NzQ3OCwxNj
-IyMjA5Njk2LC0xNTM2MTc4OTg5LDE1MzYwOTg1MzAsLTY3OTU5
-NTg1MSw0MzY5NDMxMjcsMTU2MjM5NDAwOCwtMTYzMzA1MDk0Ni
-wtMTcwMDEzMDM2Niw4MDY4MTc2MTQsLTQ0MDA4ODE1LC03OTU4
-NzAyNzUsMjAwNzYwNDc1NiwtMTcxNjg5MzMzMiwxNDg5MjkxNT
-UsMjAyOTY3OTA0LC0xNjUxNDc3MzQwLDE4MDUyNDA4NjcsMTgx
-NTM2NTI3Nl19
+eyJoaXN0b3J5IjpbLTE3NDY0MTA4MTMsLTE0MzA4Mjk0MDMsMT
+UzOTI2NzQ3OCwxNjIyMjA5Njk2LC0xNTM2MTc4OTg5LDE1MzYw
+OTg1MzAsLTY3OTU5NTg1MSw0MzY5NDMxMjcsMTU2MjM5NDAwOC
+wtMTYzMzA1MDk0NiwtMTcwMDEzMDM2Niw4MDY4MTc2MTQsLTQ0
+MDA4ODE1LC03OTU4NzAyNzUsMjAwNzYwNDc1NiwtMTcxNjg5Mz
+MzMiwxNDg5MjkxNTUsMjAyOTY3OTA0LC0xNjUxNDc3MzQwLDE4
+MDUyNDA4NjddfQ==
 -->
