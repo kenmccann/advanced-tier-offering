@@ -213,7 +213,7 @@ Audit data is created from events and displayed in the UI when using the Aqua UI
 
 You can read more about the information we provide about auditing [here](https://docs.aquasec.com/docs/view-audit-events).
 
-Aqua provides numerous  options for customers who wish to send their audit event data & scan logs from the console to third party logging systems such as Amazon Cloud Watch, Elasticsearch, Syslog and Webhooks, and SIEM solutions such as Splunk, QRadar, Sumo Logic and other popular tools.
+Aqua provides numerous options for customers who wish to send their audit event data & scan logs from the console to third party logging systems such as Amazon Cloud Watch, Elasticsearch, Syslog and Webhooks, and SIEM solutions such as Splunk, QRadar, Sumo Logic and other popular tools.
 
 It is likely that your customer will want to discuss this with you. Ask them whether their Security Operations Center (SOC) are using a SIEM platform such as Splunk for monitoring access and security events, generated from infrastructure and workload access.
 
@@ -223,7 +223,7 @@ We have a best practices page within our documentation regarding SIEM too use th
 
 Once you have a clearer idea of the customers logging requirements and use-case, you try and assist the customer with task of integrating this in their environment.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE5OTQzMjY4LC0xNzQ2NDEwODEzLC0xND
+eyJoaXN0b3J5IjpbODIwNzAyNTUwLC0xNzQ2NDEwODEzLC0xND
 MwODI5NDAzLDE1MzkyNjc0NzgsMTYyMjIwOTY5NiwtMTUzNjE3
 ODk4OSwxNTM2MDk4NTMwLC02Nzk1OTU4NTEsNDM2OTQzMTI3LD
 E1NjIzOTQwMDgsLTE2MzMwNTA5NDYsLTE3MDAxMzAzNjYsODA2
