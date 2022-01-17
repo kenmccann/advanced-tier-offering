@@ -207,11 +207,11 @@ Using the SSO integration  within  your customers Aqua deployment will enable th
 ### SIEM and logging  Integration
 As we know, customers love looking data relating their security and workloads. 
 
-Audit data is generated for events that are created when using the Aqua UI and API - you should read the information we proviude about auditing [here](https://docs.aquasec.com/docs/view-audit-events)
+Audit data is generated for events that are created when using the Aqua UI and API - you should read the information we provide about auditing [here](https://docs.aquasec.com/docs/view-audit-events)
 
 Aqua provides numerous options for customers to send the  audit event data & scan logs from the console to third party logging systems such as Amazon Cloud Watch, Elasticsearch, Syslog and Webhooks, and SIEM solutions such as Splunk, QRadar, Sumo Logic and other popular tools.
 
-It is likely that your customer will want to discuss this with you, and ask them whether their Security Operations Center (SOC) are using a SIEM platform such as splunk for monitoring of access and security events which are generated from infrastructure and workload access.
+It is likely that your customer will want to discuss this with you. Ask them whether their Security Operations Center (SOC) are using a SIEM platform such as Splunk for monitoring of access and security events which are generated from infrastructure and workload access.
 
 Our list of supported integrations for logging are provided here as well as the list of supported SIEM tools which Aqua provides a hook into [here](https://docs.aquasec.com/docs/external-log-collector)  you can discuss these options with the customer
 
@@ -219,11 +219,11 @@ We have a best practices page within our documentation regarding SIEM too use th
 
 Once you have a clearer idea of the customers logging requirements and use-case, you maybe expected to assist the customer
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTIxMzkwNjAsMTUzOTI2NzQ3OCwxNj
-IyMjA5Njk2LC0xNTM2MTc4OTg5LDE1MzYwOTg1MzAsLTY3OTU5
-NTg1MSw0MzY5NDMxMjcsMTU2MjM5NDAwOCwtMTYzMzA1MDk0Ni
-wtMTcwMDEzMDM2Niw4MDY4MTc2MTQsLTQ0MDA4ODE1LC03OTU4
-NzAyNzUsMjAwNzYwNDc1NiwtMTcxNjg5MzMzMiwxNDg5MjkxNT
-UsMjAyOTY3OTA0LC0xNjUxNDc3MzQwLDE4MDUyNDA4NjcsMTgx
-NTM2NTI3Nl19
+eyJoaXN0b3J5IjpbLTEzODM4MTcwOCwxNTM5MjY3NDc4LDE2Mj
+IyMDk2OTYsLTE1MzYxNzg5ODksMTUzNjA5ODUzMCwtNjc5NTk1
+ODUxLDQzNjk0MzEyNywxNTYyMzk0MDA4LC0xNjMzMDUwOTQ2LC
+0xNzAwMTMwMzY2LDgwNjgxNzYxNCwtNDQwMDg4MTUsLTc5NTg3
+MDI3NSwyMDA3NjA0NzU2LC0xNzE2ODkzMzMyLDE0ODkyOTE1NS
+wyMDI5Njc5MDQsLTE2NTE0NzczNDAsMTgwNTI0MDg2NywxODE1
+MzY1Mjc2XX0=
 -->
