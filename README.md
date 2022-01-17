@@ -203,7 +203,9 @@ We cover the  supported IDP's  and  configuration methods in our [documentation]
 
 There is also  a PDF document *published by the Customer Success team at Aqua* titled "Aqua with Azure AD - SAML.pdf". It explains how  to  integrate  with Active  Directory  which  can be obtiained on request  that helps  most customers to  set  this up.
 
-Customers who use your customers Aqua deployment will enable them to take  advantage of several features such as application  scopes, permission sets (as part of the   [Aqua RBAC](https://docs.aquasec.com/docs/rbac-overview)  functionality ) and align developer, security auditing, vulnerability managers  and administrator  groups within AD, giving an additional layer of granularity and access to the images, vulnerabilties and applications  which matter most to them. 
+Customers who integrate SSO/SAML within their deployment allows them to take advantage of a single authentication
+
+of several features such as application  scopes, permission sets (as part of the   [Aqua RBAC](https://docs.aquasec.com/docs/rbac-overview)  functionality ) and align developer, security auditing, vulnerability managers  and administrator  groups within AD, giving an additional layer of granularity and access to the images, vulnerabilties and applications  which matter most to them. 
 
 ### SIEM and logging  Integration
 As we know, customers love looking data relating their security and workloads. 
@@ -220,11 +222,11 @@ We have a best practices page within our documentation regarding SIEM too use th
 
 Once you have a clearer idea of the customers logging requirements and use-case, you try and assist the customer with task of integrating this in their environment.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDc2NzcxNDYsLTE3NDY0MTA4MTMsLT
-E0MzA4Mjk0MDMsMTUzOTI2NzQ3OCwxNjIyMjA5Njk2LC0xNTM2
-MTc4OTg5LDE1MzYwOTg1MzAsLTY3OTU5NTg1MSw0MzY5NDMxMj
-csMTU2MjM5NDAwOCwtMTYzMzA1MDk0NiwtMTcwMDEzMDM2Niw4
-MDY4MTc2MTQsLTQ0MDA4ODE1LC03OTU4NzAyNzUsMjAwNzYwND
-c1NiwtMTcxNjg5MzMzMiwxNDg5MjkxNTUsMjAyOTY3OTA0LC0x
-NjUxNDc3MzQwXX0=
+eyJoaXN0b3J5IjpbLTEyNDU1NjE0OSwtMTc0NjQxMDgxMywtMT
+QzMDgyOTQwMywxNTM5MjY3NDc4LDE2MjIyMDk2OTYsLTE1MzYx
+Nzg5ODksMTUzNjA5ODUzMCwtNjc5NTk1ODUxLDQzNjk0MzEyNy
+wxNTYyMzk0MDA4LC0xNjMzMDUwOTQ2LC0xNzAwMTMwMzY2LDgw
+NjgxNzYxNCwtNDQwMDg4MTUsLTc5NTg3MDI3NSwyMDA3NjA0Nz
+U2LC0xNzE2ODkzMzMyLDE0ODkyOTE1NSwyMDI5Njc5MDQsLTE2
+NTE0NzczNDBdfQ==
 -->
