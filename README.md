@@ -203,7 +203,8 @@ We cover the  supported IDP's  and  configuration methods in our [documentation]
 
 There is also  a PDF document *published by the Customer Success team at Aqua* titled "Aqua with Azure AD - SAML.pdf". It explains how  to  integrate  with Active  Directory  which  can be obtiained on request  that helps  most customers to  set  this up.
 
-Customers who integrate SSO/SAML within their deployment allows them to take advantage of a single authentication mechanism. It also provides the capbility to utilise several features such as Application  scopes, Permission sets, that are part of the   [Aqua RBAC](https://docs.aquasec.com/docs/rbac-overview)  functionality, thus enabling security and developer, security auditing, vulnerability managers  and administrator  groups within AD, giving an additional layer of granularity and access to the images, vulnerabilties and applications  which matter most to them. 
+Customers who integrate SSO/SAML within their deployment, allows them to take advantage of a single authentication mechanism for users of Aqua.  
+It also provides capbility to combine the use of several features such as Application  scopes, Permission sets, that are part of the   [Aqua RBAC](https://docs.aquasec.com/docs/rbac-overview)  functionality, thus enabling security and developer teams to align with, security auditing, vulnerability managers  and administrator  groups within AD, giving an additional layer of granularity and access to the images, vulnerabilties and applications  which matter most to them. 
 
 ### SIEM and logging  Integration
 As we know, customers love looking data relating their security and workloads. 
@@ -220,7 +221,7 @@ We have a best practices page within our documentation regarding SIEM too use th
 
 Once you have a clearer idea of the customers logging requirements and use-case, you try and assist the customer with task of integrating this in their environment.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNzUwMTc2NCwtMTc0NjQxMDgxMywtMT
+eyJoaXN0b3J5IjpbMTc3ODMxMzc0MiwtMTc0NjQxMDgxMywtMT
 QzMDgyOTQwMywxNTM5MjY3NDc4LDE2MjIyMDk2OTYsLTE1MzYx
 Nzg5ODksMTUzNjA5ODUzMCwtNjc5NTk1ODUxLDQzNjk0MzEyNy
 wxNTYyMzk0MDA4LC0xNjMzMDUwOTQ2LC0xNzAwMTMwMzY2LDgw
