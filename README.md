@@ -209,7 +209,9 @@ It also provides capbility to combine the use of application  scopes & permissio
 ### SIEM and logging  Integration
 As we know, customers love looking at data relating their security and workloads. 
 
-Audit data is generated for events that are created when using the Aqua UI and API - you should read the information we provide about auditing [here](https://docs.aquasec.com/docs/view-audit-events)
+Audit data is created from events and displayed in the UI when using the Aqua UI and API, this data can be sent to a variety of different systems by Aqua.
+
+You can read more about the information we provide about auditing [here](https://docs.aquasec.com/docs/view-audit-events)
 
 Aqua provides numerous options for customers to send the  audit event data & scan logs from the console to third party logging systems such as Amazon Cloud Watch, Elasticsearch, Syslog and Webhooks, and SIEM solutions such as Splunk, QRadar, Sumo Logic and other popular tools.
 
@@ -221,11 +223,11 @@ We have a best practices page within our documentation regarding SIEM too use th
 
 Once you have a clearer idea of the customers logging requirements and use-case, you try and assist the customer with task of integrating this in their environment.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MDI2MzI2NSwtMTc0NjQxMDgxMywtMT
-QzMDgyOTQwMywxNTM5MjY3NDc4LDE2MjIyMDk2OTYsLTE1MzYx
-Nzg5ODksMTUzNjA5ODUzMCwtNjc5NTk1ODUxLDQzNjk0MzEyNy
-wxNTYyMzk0MDA4LC0xNjMzMDUwOTQ2LC0xNzAwMTMwMzY2LDgw
-NjgxNzYxNCwtNDQwMDg4MTUsLTc5NTg3MDI3NSwyMDA3NjA0Nz
-U2LC0xNzE2ODkzMzMyLDE0ODkyOTE1NSwyMDI5Njc5MDQsLTE2
-NTE0NzczNDBdfQ==
+eyJoaXN0b3J5IjpbLTEyOTY3MTA5MjQsLTE3NDY0MTA4MTMsLT
+E0MzA4Mjk0MDMsMTUzOTI2NzQ3OCwxNjIyMjA5Njk2LC0xNTM2
+MTc4OTg5LDE1MzYwOTg1MzAsLTY3OTU5NTg1MSw0MzY5NDMxMj
+csMTU2MjM5NDAwOCwtMTYzMzA1MDk0NiwtMTcwMDEzMDM2Niw4
+MDY4MTc2MTQsLTQ0MDA4ODE1LC03OTU4NzAyNzUsMjAwNzYwND
+c1NiwtMTcxNjg5MzMzMiwxNDg5MjkxNTUsMjAyOTY3OTA0LC0x
+NjUxNDc3MzQwXX0=
 -->
