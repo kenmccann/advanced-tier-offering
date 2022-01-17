@@ -207,17 +207,20 @@ Using the SSO integration  within  your customers Aqua deployment will enable th
 ### SIEM and logging  Integration
 As we know, customers love looking data which is related their security and workloads. Aqua provides numerous options for customers to send the Aqua audit event data from the console to logging and SIEM solutions such as Splunk, QRadar and logging systems like Elasticsearch, Syslog and other popular tools.
 Audit data is generated for events that are created when using the Aqua UI and API - you should read the information we proviude about auditing [here](https://docs.aquasec.com/docs/view-audit-events)
+
 It is likely that your customer will want to discuss this with you, and ask them whether their Security Operations Center (SOC) are using a SIEM platform such as splunk for monitoring of access and security events which are generated from infrastructure and workload access.
 
-Our list of supported integrations for logging are provided here as well as the list of supported SIEM tools which Aqua provides a hook into.
+Our list of supported integrations for logging are provided here as well as the list of supported SIEM tools which Aqua provides a hook into [here](https://docs.aquasec.com/docs/external-log-collector)  you can discuss these options with the customer
 
 We have a best practices page within our documentation regarding SIEM too use that you can read [here](https://docs.aquasec.com/docs/security-best-practices-integrations#use-a-siem-for-container-logs-for-operational-metrics)
+
+Once you have a clea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzOTI2NzQ3OCwxNjIyMjA5Njk2LC0xNT
-M2MTc4OTg5LDE1MzYwOTg1MzAsLTY3OTU5NTg1MSw0MzY5NDMx
-MjcsMTU2MjM5NDAwOCwtMTYzMzA1MDk0NiwtMTcwMDEzMDM2Ni
-w4MDY4MTc2MTQsLTQ0MDA4ODE1LC03OTU4NzAyNzUsMjAwNzYw
-NDc1NiwtMTcxNjg5MzMzMiwxNDg5MjkxNTUsMjAyOTY3OTA0LC
-0xNjUxNDc3MzQwLDE4MDUyNDA4NjcsMTgxNTM2NTI3NiwtMTE0
-MTQxMDY0NF19
+eyJoaXN0b3J5IjpbLTEyMjYwMjM1OTEsMTUzOTI2NzQ3OCwxNj
+IyMjA5Njk2LC0xNTM2MTc4OTg5LDE1MzYwOTg1MzAsLTY3OTU5
+NTg1MSw0MzY5NDMxMjcsMTU2MjM5NDAwOCwtMTYzMzA1MDk0Ni
+wtMTcwMDEzMDM2Niw4MDY4MTc2MTQsLTQ0MDA4ODE1LC03OTU4
+NzAyNzUsMjAwNzYwNDc1NiwtMTcxNjg5MzMzMiwxNDg5MjkxNT
+UsMjAyOTY3OTA0LC0xNjUxNDc3MzQwLDE4MDUyNDA4NjcsMTgx
+NTM2NTI3Nl19
 -->
