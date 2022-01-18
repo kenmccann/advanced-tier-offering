@@ -189,7 +189,7 @@ A list of supported CI/CD integrations is provided [here](https://docs.aquasec.c
 
 Speaking with your customer can give you an understanding of their environment and application landscape before embarking on this task as part of your ongoing workshop.
 
-Build pipelines can be configured to use the scanner for a customer and scan images either using the proprietary Aqua CI tool scanner plug-in or vi[enter link description here](https://docs.aquasec.com/docs/jenkins-image-scanning-integration#section-jenkins-plugin-image-scanning-results)a pipeline step by invoking docker or another supported  container runtime.
+Build pipelines can be configured to use the scanner for a customer and scan images either using the proprietary Aqua CI tool scanner plug-in or view [enter link description here]  (https://docs.aquasec.com/docs/jenkins-image-scanning-integration#section-jenkins-plugin-image-scanning-results)  a pipeline step by invoking docker or another supported  container runtime.
 
 1. Show the customer how easy it is to scan an image, [by creating a Jenkins pipeline](https://docs.aquasec.com/docs/jenkins-image-scanning-integration) -   the link  provides  all t he  instructions  to do this and how to use the Aqua scanner Plug-in and parametrise the _Image Name_ as a variable so that any image can be scanned using a Jenkins job by providing build parameters.
 2. Demonstrate this pipeline working and explain how this can be used by others in the organisation indirectly without needing to access the Aqua console. I.e., a developer or member of a DevOps team can scan images, as part of the first step to making images compliant.
@@ -227,11 +227,11 @@ We have a best practices page within our documentation regarding SIEM too use th
 
 Once you have a clearer idea of the customers logging requirements and use-case, you try and assist the customer with task of integrating this in their environment.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUyOTU5NTg2LDE1ODMwMTQwNDksLTEwMD
-g0NjkwODksNzc3ODM2MTk1LC0xMjUyNzQ0MzI5LDM1MzQ4NjMx
-MiwtMTc0NjQxMDgxMywtMTQzMDgyOTQwMywxNTM5MjY3NDc4LD
-E2MjIyMDk2OTYsLTE1MzYxNzg5ODksMTUzNjA5ODUzMCwtNjc5
-NTk1ODUxLDQzNjk0MzEyNywxNTYyMzk0MDA4LC0xNjMzMDUwOT
-Q2LC0xNzAwMTMwMzY2LDgwNjgxNzYxNCwtNDQwMDg4MTUsLTc5
-NTg3MDI3NV19
+eyJoaXN0b3J5IjpbLTY2MTY3MjQ3OCw2NTI5NTk1ODYsMTU4Mz
+AxNDA0OSwtMTAwODQ2OTA4OSw3Nzc4MzYxOTUsLTEyNTI3NDQz
+MjksMzUzNDg2MzEyLC0xNzQ2NDEwODEzLC0xNDMwODI5NDAzLD
+E1MzkyNjc0NzgsMTYyMjIwOTY5NiwtMTUzNjE3ODk4OSwxNTM2
+MDk4NTMwLC02Nzk1OTU4NTEsNDM2OTQzMTI3LDE1NjIzOTQwMD
+gsLTE2MzMwNTA5NDYsLTE3MDAxMzAzNjYsODA2ODE3NjE0LC00
+NDAwODgxNV19
 -->
