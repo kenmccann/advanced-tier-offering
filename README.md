@@ -4,7 +4,8 @@
 *Produced by Daniel Cave, 
 DevSecOps Architect, Aqua Security. January 2022.*
 
-The consultant will lead the end customer to cover the subjects mentioned below over a one to two day period using this guide. These sessions will be a combination of instructor led training and examples based on real world use cases and provide the customer with the opportunity to carry out the scenarios for themselves.
+##  Introduction regarding this package
+The consultant will lead the end customer by covering the subjects mentioned below over a one to two day period using this guide. These sessions will be a combination of instructor led training and examples based on real world use cases and provide the customer with the opportunity to carry out the scenarios for themselves.
 
 Topics to cover:
 -   Registry Integration
@@ -225,11 +226,11 @@ We have a best practices page within our documentation regarding SIEM too use th
 
 Once you have a clearer idea of the customers logging requirements and use-case, you try and assist the customer with task of integrating this in their environment.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUzNDg2MzEyLC0xNzQ2NDEwODEzLC0xND
-MwODI5NDAzLDE1MzkyNjc0NzgsMTYyMjIwOTY5NiwtMTUzNjE3
-ODk4OSwxNTM2MDk4NTMwLC02Nzk1OTU4NTEsNDM2OTQzMTI3LD
-E1NjIzOTQwMDgsLTE2MzMwNTA5NDYsLTE3MDAxMzAzNjYsODA2
-ODE3NjE0LC00NDAwODgxNSwtNzk1ODcwMjc1LDIwMDc2MDQ3NT
-YsLTE3MTY4OTMzMzIsMTQ4OTI5MTU1LDIwMjk2NzkwNCwtMTY1
-MTQ3NzM0MF19
+eyJoaXN0b3J5IjpbLTIxMjc2NSwzNTM0ODYzMTIsLTE3NDY0MT
+A4MTMsLTE0MzA4Mjk0MDMsMTUzOTI2NzQ3OCwxNjIyMjA5Njk2
+LC0xNTM2MTc4OTg5LDE1MzYwOTg1MzAsLTY3OTU5NTg1MSw0Mz
+Y5NDMxMjcsMTU2MjM5NDAwOCwtMTYzMzA1MDk0NiwtMTcwMDEz
+MDM2Niw4MDY4MTc2MTQsLTQ0MDA4ODE1LC03OTU4NzAyNzUsMj
+AwNzYwNDc1NiwtMTcxNjg5MzMzMiwxNDg5MjkxNTUsMjAyOTY3
+OTA0XX0=
 -->
