@@ -58,7 +58,7 @@ Since Aqua provides two baseline policies for image assurance, one being the **D
 
 The **Default** image assurance policy is enough to get the customer started however it does not include any additional controls which means that you will need to get a better understanding of what they will want to include in their policy.
 
-### Creating policy for your customers use case
+### Creating policy for your customers use cases
 One of the ways to do this is to start with a custom policy with a handful of controls such as the one shown below. It's a good idea to start with a few controls within one policy to keep it simple, this makes interpreting and acting upon the results easier for the customer to digest as they learn how Aqua's IA works, instead of creating a policy with all the controls and potentially overwhelming the customer with far too much information to process.
 
 In any customer setup you would start with a few basic policy controls such as :
@@ -227,11 +227,11 @@ We have a best practices page within our documentation regarding SIEM too use th
 
 Once you have a clearer idea of the customers logging requirements and use-case, you try and assist the customer with task of integrating this in their environment.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDA5NjgwNjEsMTU4MzAxNDA0OSwtMT
-AwODQ2OTA4OSw3Nzc4MzYxOTUsLTEyNTI3NDQzMjksMzUzNDg2
-MzEyLC0xNzQ2NDEwODEzLC0xNDMwODI5NDAzLDE1MzkyNjc0Nz
-gsMTYyMjIwOTY5NiwtMTUzNjE3ODk4OSwxNTM2MDk4NTMwLC02
-Nzk1OTU4NTEsNDM2OTQzMTI3LDE1NjIzOTQwMDgsLTE2MzMwNT
-A5NDYsLTE3MDAxMzAzNjYsODA2ODE3NjE0LC00NDAwODgxNSwt
-Nzk1ODcwMjc1XX0=
+eyJoaXN0b3J5IjpbNjUyOTU5NTg2LDE1ODMwMTQwNDksLTEwMD
+g0NjkwODksNzc3ODM2MTk1LC0xMjUyNzQ0MzI5LDM1MzQ4NjMx
+MiwtMTc0NjQxMDgxMywtMTQzMDgyOTQwMywxNTM5MjY3NDc4LD
+E2MjIyMDk2OTYsLTE1MzYxNzg5ODksMTUzNjA5ODUzMCwtNjc5
+NTk1ODUxLDQzNjk0MzEyNywxNTYyMzk0MDA4LC0xNjMzMDUwOT
+Q2LC0xNzAwMTMwMzY2LDgwNjgxNzYxNCwtNDQwMDg4MTUsLTc5
+NTg3MDI3NV19
 -->
