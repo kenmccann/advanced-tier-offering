@@ -37,7 +37,7 @@ Aqua also provides a set of baseline Image Assurance Policies out of the box, th
 
 **Session aim**:  to produce a list of the container registries with the customer which they are using and to create registry integrations within their SaaS console so that the customer can begin to scan images from their registry.
 
-As the customer’s consultant you will need to establish whether the customer’s registries are hosted on premise or if they’re using cloud hosted registries, such as Azure ACR, AWS ECR or Google GCR, additionally the other registries that we support are listed here  
+As the customer’s consultant you will need to establish whether the customer’s registries are hosted on premise or if they’re using cloud hosted registries, such as Azure ACR, AWS ECR or Google GCR, or both. Additionally the other registries that we support are listed here  
 [https://docs.aquasec.com/docs/image-registries-and-repositories#section-registry-details-tab](https://docs.aquasec.com/docs/image-registries-and-repositories#section-registry-details-tab)
 
 Where a customer is using on-premises container registries and the Aqua SaaS instance, you will need to configure the Aqua cloud connector before any images from repos can be scanned by Aqua.
@@ -226,11 +226,11 @@ We have a best practices page within our documentation regarding SIEM too use th
 
 Once you have a clearer idea of the customers logging requirements and use-case, you try and assist the customer with task of integrating this in their environment.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc3ODM2MTk1LC0xMjUyNzQ0MzI5LDM1Mz
-Q4NjMxMiwtMTc0NjQxMDgxMywtMTQzMDgyOTQwMywxNTM5MjY3
-NDc4LDE2MjIyMDk2OTYsLTE1MzYxNzg5ODksMTUzNjA5ODUzMC
-wtNjc5NTk1ODUxLDQzNjk0MzEyNywxNTYyMzk0MDA4LC0xNjMz
-MDUwOTQ2LC0xNzAwMTMwMzY2LDgwNjgxNzYxNCwtNDQwMDg4MT
-UsLTc5NTg3MDI3NSwyMDA3NjA0NzU2LC0xNzE2ODkzMzMyLDE0
-ODkyOTE1NV19
+eyJoaXN0b3J5IjpbLTEwMDg0NjkwODksNzc3ODM2MTk1LC0xMj
+UyNzQ0MzI5LDM1MzQ4NjMxMiwtMTc0NjQxMDgxMywtMTQzMDgy
+OTQwMywxNTM5MjY3NDc4LDE2MjIyMDk2OTYsLTE1MzYxNzg5OD
+ksMTUzNjA5ODUzMCwtNjc5NTk1ODUxLDQzNjk0MzEyNywxNTYy
+Mzk0MDA4LC0xNjMzMDUwOTQ2LC0xNzAwMTMwMzY2LDgwNjgxNz
+YxNCwtNDQwMDg4MTUsLTc5NTg3MDI3NSwyMDA3NjA0NzU2LC0x
+NzE2ODkzMzMyXX0=
 -->
