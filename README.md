@@ -52,7 +52,8 @@ We recommend that you take time to do this in advance to check it works per the 
   
 ### Understanding Image Assurance controls
 
-Since Aqua provides two baseline policies for image assurance, one being the **Default** image policy and the other is for **DTA**.
+Since Aqua provides two baseline policies for image assurance, one being the **Default** image policy and the other is for **DTA**. 
+*DTA is our Dynamic Threat Analysis capability that can scan images at run time to identify unidentified vulnerabilites that static scanning cannot *
 
 The **Default** image assurance policy is enough to get the customer started however it does not include any additional controls which means that you will need to get a better understanding of what they will want to include in their policy.
 
@@ -225,11 +226,11 @@ We have a best practices page within our documentation regarding SIEM too use th
 
 Once you have a clearer idea of the customers logging requirements and use-case, you try and assist the customer with task of integrating this in their environment.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MzAxNDA0OSwtMTAwODQ2OTA4OSw3Nz
-c4MzYxOTUsLTEyNTI3NDQzMjksMzUzNDg2MzEyLC0xNzQ2NDEw
-ODEzLC0xNDMwODI5NDAzLDE1MzkyNjc0NzgsMTYyMjIwOTY5Ni
-wtMTUzNjE3ODk4OSwxNTM2MDk4NTMwLC02Nzk1OTU4NTEsNDM2
-OTQzMTI3LDE1NjIzOTQwMDgsLTE2MzMwNTA5NDYsLTE3MDAxMz
-AzNjYsODA2ODE3NjE0LC00NDAwODgxNSwtNzk1ODcwMjc1LDIw
-MDc2MDQ3NTZdfQ==
+eyJoaXN0b3J5IjpbNzEyNDU4NTc1LDE1ODMwMTQwNDksLTEwMD
+g0NjkwODksNzc3ODM2MTk1LC0xMjUyNzQ0MzI5LDM1MzQ4NjMx
+MiwtMTc0NjQxMDgxMywtMTQzMDgyOTQwMywxNTM5MjY3NDc4LD
+E2MjIyMDk2OTYsLTE1MzYxNzg5ODksMTUzNjA5ODUzMCwtNjc5
+NTk1ODUxLDQzNjk0MzEyNywxNTYyMzk0MDA4LC0xNjMzMDUwOT
+Q2LC0xNzAwMTMwMzY2LDgwNjgxNzYxNCwtNDQwMDg4MTUsLTc5
+NTg3MDI3NV19
 -->
