@@ -54,7 +54,7 @@ We recommend that you take time to do this in advance to check it works per the 
 
 Since Aqua provides two baseline policies for image assurance, one being the **Default** image policy and the other is for **DTA**. 
 
-*[DTA](https://docs.aquasec.com/docs/aqua-dynamic-threat-analysis-dta) is our Dynamic Threat Analysis capability that can scan images at run time to identify unidentified vulnerabilites that static scanning cannot observe.*  It's a licenced capability and being able to use it depends on the licence which you customer has purchased.
+*[DTA](https://docs.aquasec.com/docs/aqua-dynamic-threat-analysis-dta) - Dynamic Threat Analysis capability that can scan images at run time to identify unidentified vulnerabilites that static scanning cannot observe.  It's a licenced capability and being able to use it depends on the licence which you customer has purchased.*
 
 The **Default** image assurance policy is enough to get the customer started however it does not include any additional controls which means that you will need to get a better understanding of what they will want to include in their policy.
 
@@ -227,7 +227,7 @@ We have a best practices page within our documentation regarding SIEM too use th
 
 Once you have a clearer idea of the customers logging requirements and use-case, you try and assist the customer with task of integrating this in their environment.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTAyOTYxNDAsMTU4MzAxNDA0OSwtMT
+eyJoaXN0b3J5IjpbLTIwMTQ3ODgyNDMsMTU4MzAxNDA0OSwtMT
 AwODQ2OTA4OSw3Nzc4MzYxOTUsLTEyNTI3NDQzMjksMzUzNDg2
 MzEyLC0xNzQ2NDEwODEzLC0xNDMwODI5NDAzLDE1MzkyNjc0Nz
 gsMTYyMjIwOTY5NiwtMTUzNjE3ODk4OSwxNTM2MDk4NTMwLC02
