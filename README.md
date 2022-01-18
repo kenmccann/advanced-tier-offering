@@ -18,8 +18,6 @@ Topics to cover:
 
 You can break down the time spent working with the customer on these subjects over six to eight sections lasting around two to three hours for each section. Some scenarios may take less time depending on the complexity.
 
-[ insert table and time allocation when other content is defined]
-
 ## Showing the relationship between Aqua capabilities
 
 At a high level, Aqua can be configured to scan container images from several supported container registries.
@@ -228,7 +226,7 @@ We have a best practices page within our documentation regarding SIEM too use th
 
 Once you have a clearer idea of the customers logging requirements and use-case, you try and assist the customer with task of integrating this in their environment.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzQzMTQ4MjAsMzUzNDg2MzEyLC0xNz
+eyJoaXN0b3J5IjpbLTEyNTI3NDQzMjksMzUzNDg2MzEyLC0xNz
 Q2NDEwODEzLC0xNDMwODI5NDAzLDE1MzkyNjc0NzgsMTYyMjIw
 OTY5NiwtMTUzNjE3ODk4OSwxNTM2MDk4NTMwLC02Nzk1OTU4NT
 EsNDM2OTQzMTI3LDE1NjIzOTQwMDgsLTE2MzMwNTA5NDYsLTE3
