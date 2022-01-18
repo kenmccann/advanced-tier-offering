@@ -25,9 +25,9 @@ At a high level, Aqua can be configured to scan container images from several su
 The diagram below represents the relationships between each of the Aqua Components.
 
 ![](https://github.com/kenmccann/advanced-tier-offering/blob/master/image/3vens.png?raw=true)
-Vulnerability scanning cannot happen without integrating the customer’s container registries into Aqua and image scanning is dependent upon those registries existing within the Aqua console.
+Vulnerability scanning [aka image scanning] cannot happen without integrating the customer’s container registries into Aqua and image scanning is dependent upon those registries existing within the Aqua console.
 
-By default, Aqua's registry configuration provides an existing container registry integration out of the box, which is Docker Hub. This can be used to scan public images and is a good starting point to show customers if they want to see this work out of the box.
+By default, Aqua's provides an existing container registry integration out of the box, which is Docker Hub. This can be used to scan public images and is a good starting point to show customers if they want to see this work out of the box with the server side scanner.
 
 Additionally,  Image Assurance policies cannot be applied to images from a repo, unless they originate from a configured container registry.  
 
@@ -226,7 +226,7 @@ We have a best practices page within our documentation regarding SIEM too use th
 
 Once you have a clearer idea of the customers logging requirements and use-case, you try and assist the customer with task of integrating this in their environment.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMjY2MjU2OCwtMTI1Mjc0NDMyOSwzNT
+eyJoaXN0b3J5IjpbLTgzNzEyNjYxOSwtMTI1Mjc0NDMyOSwzNT
 M0ODYzMTIsLTE3NDY0MTA4MTMsLTE0MzA4Mjk0MDMsMTUzOTI2
 NzQ3OCwxNjIyMjA5Njk2LC0xNTM2MTc4OTg5LDE1MzYwOTg1Mz
 AsLTY3OTU5NTg1MSw0MzY5NDMxMjcsMTU2MjM5NDAwOCwtMTYz
