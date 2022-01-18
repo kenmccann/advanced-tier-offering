@@ -31,7 +31,7 @@ By default, Aqua's provides an existing container registry integration out of th
 
 Additionally, Image Assurance policies cannot be applied to images from a registry and repo, unless they originate from a configured container registry.  i.e. having Docker Hub configured as a registry integration permits the user to pull an image such as nginx:latest from the registry so that it can be scanned.
 
-Aqua provides a set of baseline Image Assurance Policies out of the box, that provide several controls that are applied to the images from the repositories in each container registry.
+Aqua also provides a set of baseline Image Assurance Policies out of the box, that provide controls that are applied to the images from the repositories in each container registry.
 
 ## Registry Integration
 
@@ -226,11 +226,11 @@ We have a best practices page within our documentation regarding SIEM too use th
 
 Once you have a clearer idea of the customers logging requirements and use-case, you try and assist the customer with task of integrating this in their environment.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNjYxODU5NCwtMTI1Mjc0NDMyOSwzNT
-M0ODYzMTIsLTE3NDY0MTA4MTMsLTE0MzA4Mjk0MDMsMTUzOTI2
-NzQ3OCwxNjIyMjA5Njk2LC0xNTM2MTc4OTg5LDE1MzYwOTg1Mz
-AsLTY3OTU5NTg1MSw0MzY5NDMxMjcsMTU2MjM5NDAwOCwtMTYz
-MzA1MDk0NiwtMTcwMDEzMDM2Niw4MDY4MTc2MTQsLTQ0MDA4OD
-E1LC03OTU4NzAyNzUsMjAwNzYwNDc1NiwtMTcxNjg5MzMzMiwx
-NDg5MjkxNTVdfQ==
+eyJoaXN0b3J5IjpbNzc3ODM2MTk1LC0xMjUyNzQ0MzI5LDM1Mz
+Q4NjMxMiwtMTc0NjQxMDgxMywtMTQzMDgyOTQwMywxNTM5MjY3
+NDc4LDE2MjIyMDk2OTYsLTE1MzYxNzg5ODksMTUzNjA5ODUzMC
+wtNjc5NTk1ODUxLDQzNjk0MzEyNywxNTYyMzk0MDA4LC0xNjMz
+MDUwOTQ2LC0xNzAwMTMwMzY2LDgwNjgxNzYxNCwtNDQwMDg4MT
+UsLTc5NTg3MDI3NSwyMDA3NjA0NzU2LC0xNzE2ODkzMzMyLDE0
+ODkyOTE1NV19
 -->
