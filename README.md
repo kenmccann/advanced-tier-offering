@@ -16,13 +16,13 @@ Topics to cover:
 -  SSO/SAML integration
 - SIEM and logging
 
-You can break down the time spent working with the customer on these subjects over six to eight sections lasting around two to three hours for each section. Some scenarios may take less time depending on the complexity.
+You can break down the time spent working with the customer on these subjects over six to eight sections lasting around two to three hours for each section. Some scenarios may take less time depending on the complexity and the customers familiarity with the subject matter.
 
 ## Showing the relationship between Aqua capabilities
 
 At a high level, Aqua can be configured to scan container images from several supported container registries.
 
-The Venn diagram below represents the relationships between each of the Aqua Components.
+The diagram below represents the relationships between each of the Aqua Components.
 
 ![](https://github.com/kenmccann/advanced-tier-offering/blob/master/image/3vens.png?raw=true)
 Vulnerability scanning cannot happen without integrating the customer’s container registries into Aqua and image scanning is dependent upon those registries existing within the Aqua console.
@@ -226,11 +226,11 @@ We have a best practices page within our documentation regarding SIEM too use th
 
 Once you have a clearer idea of the customers logging requirements and use-case, you try and assist the customer with task of integrating this in their environment.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTI3NDQzMjksMzUzNDg2MzEyLC0xNz
-Q2NDEwODEzLC0xNDMwODI5NDAzLDE1MzkyNjc0NzgsMTYyMjIw
-OTY5NiwtMTUzNjE3ODk4OSwxNTM2MDk4NTMwLC02Nzk1OTU4NT
-EsNDM2OTQzMTI3LDE1NjIzOTQwMDgsLTE2MzMwNTA5NDYsLTE3
-MDAxMzAzNjYsODA2ODE3NjE0LC00NDAwODgxNSwtNzk1ODcwMj
-c1LDIwMDc2MDQ3NTYsLTE3MTY4OTMzMzIsMTQ4OTI5MTU1LDIw
-Mjk2NzkwNF19
+eyJoaXN0b3J5IjpbLTQzMjY2MjU2OCwtMTI1Mjc0NDMyOSwzNT
+M0ODYzMTIsLTE3NDY0MTA4MTMsLTE0MzA4Mjk0MDMsMTUzOTI2
+NzQ3OCwxNjIyMjA5Njk2LC0xNTM2MTc4OTg5LDE1MzYwOTg1Mz
+AsLTY3OTU5NTg1MSw0MzY5NDMxMjcsMTU2MjM5NDAwOCwtMTYz
+MzA1MDk0NiwtMTcwMDEzMDM2Niw4MDY4MTc2MTQsLTQ0MDA4OD
+E1LC03OTU4NzAyNzUsMjAwNzYwNDc1NiwtMTcxNjg5MzMzMiwx
+NDg5MjkxNTVdfQ==
 -->
