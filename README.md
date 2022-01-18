@@ -5,7 +5,8 @@
 DevSecOps Architect, Aqua Security. January 2022.*
 
 ##  Introduction regarding this package
-The consultant will lead the end customer by covering the subjects mentioned below over a one to two day period using this guide. These sessions will be a combination of instructor led training and examples based on real world use cases and provide the customer with the opportunity to carry out the scenarios for themselves.
+The consultant will lead the end customer by covering the subjects mentioned below over a one to two day period using this guide. 
+These sessions will be a combination of instructor led training and examples based on real world use cases and provide the customer with the opportunity to carry out the scenarios for themselves.
 
 Topics to cover:
 -   Registry Integration
@@ -13,6 +14,7 @@ Topics to cover:
 -   Assurance Policies – Images
 -   CI/CD integration
 -   SSO/SAML integration
+- SIEM and logging
 
 You can break down the time spent working with the customer on these subjects over six to eight sections lasting around two to three hours for each section. Some scenarios may be much shorter to do [ TBD ]
 
@@ -226,11 +228,11 @@ We have a best practices page within our documentation regarding SIEM too use th
 
 Once you have a clearer idea of the customers logging requirements and use-case, you try and assist the customer with task of integrating this in their environment.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjc2NSwzNTM0ODYzMTIsLTE3NDY0MT
-A4MTMsLTE0MzA4Mjk0MDMsMTUzOTI2NzQ3OCwxNjIyMjA5Njk2
-LC0xNTM2MTc4OTg5LDE1MzYwOTg1MzAsLTY3OTU5NTg1MSw0Mz
-Y5NDMxMjcsMTU2MjM5NDAwOCwtMTYzMzA1MDk0NiwtMTcwMDEz
-MDM2Niw4MDY4MTc2MTQsLTQ0MDA4ODE1LC03OTU4NzAyNzUsMj
-AwNzYwNDc1NiwtMTcxNjg5MzMzMiwxNDg5MjkxNTUsMjAyOTY3
-OTA0XX0=
+eyJoaXN0b3J5IjpbNDUyNDE5MjYwLDM1MzQ4NjMxMiwtMTc0Nj
+QxMDgxMywtMTQzMDgyOTQwMywxNTM5MjY3NDc4LDE2MjIyMDk2
+OTYsLTE1MzYxNzg5ODksMTUzNjA5ODUzMCwtNjc5NTk1ODUxLD
+QzNjk0MzEyNywxNTYyMzk0MDA4LC0xNjMzMDUwOTQ2LC0xNzAw
+MTMwMzY2LDgwNjgxNzYxNCwtNDQwMDg4MTUsLTc5NTg3MDI3NS
+wyMDA3NjA0NzU2LC0xNzE2ODkzMzMyLDE0ODkyOTE1NSwyMDI5
+Njc5MDRdfQ==
 -->
