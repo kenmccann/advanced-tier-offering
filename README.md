@@ -9,14 +9,14 @@ The consultant will lead the end customer by covering the subjects mentioned bel
 These sessions will be a combination of instructor led training and examples based on real world use cases and provide the customer with the opportunity to carry out the scenarios for themselves.
 
 Topics to cover:
--   Registry Integration
--   Vulnerability Scanning
--   Assurance Policies – Images
--   CI/CD integration
--   SSO/SAML integration
+-  Registry Integration
+-  Vulnerability Scanning
+-  Assurance Policies – Images
+-  CI/CD integration
+-  SSO/SAML integration
 - SIEM and logging
 
-You can break down the time spent working with the customer on these subjects over six to eight sections lasting around two to three hours for each section. Some scenarios may be much shorter to do [ TBD ]
+You can break down the time spent working with the customer on these subjects over six to eight sections lasting around two to three hours for each section. Some scenarios may take less time depending on the complexity.
 
 [ insert table and time allocation when other content is defined]
 
@@ -228,11 +228,11 @@ We have a best practices page within our documentation regarding SIEM too use th
 
 Once you have a clearer idea of the customers logging requirements and use-case, you try and assist the customer with task of integrating this in their environment.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUyNDE5MjYwLDM1MzQ4NjMxMiwtMTc0Nj
-QxMDgxMywtMTQzMDgyOTQwMywxNTM5MjY3NDc4LDE2MjIyMDk2
-OTYsLTE1MzYxNzg5ODksMTUzNjA5ODUzMCwtNjc5NTk1ODUxLD
-QzNjk0MzEyNywxNTYyMzk0MDA4LC0xNjMzMDUwOTQ2LC0xNzAw
-MTMwMzY2LDgwNjgxNzYxNCwtNDQwMDg4MTUsLTc5NTg3MDI3NS
-wyMDA3NjA0NzU2LC0xNzE2ODkzMzMyLDE0ODkyOTE1NSwyMDI5
-Njc5MDRdfQ==
+eyJoaXN0b3J5IjpbLTExNzQzMTQ4MjAsMzUzNDg2MzEyLC0xNz
+Q2NDEwODEzLC0xNDMwODI5NDAzLDE1MzkyNjc0NzgsMTYyMjIw
+OTY5NiwtMTUzNjE3ODk4OSwxNTM2MDk4NTMwLC02Nzk1OTU4NT
+EsNDM2OTQzMTI3LDE1NjIzOTQwMDgsLTE2MzMwNTA5NDYsLTE3
+MDAxMzAzNjYsODA2ODE3NjE0LC00NDAwODgxNSwtNzk1ODcwMj
+c1LDIwMDc2MDQ3NTYsLTE3MTY4OTMzMzIsMTQ4OTI5MTU1LDIw
+Mjk2NzkwNF19
 -->
